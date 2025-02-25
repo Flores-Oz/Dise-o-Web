@@ -1,0 +1,9 @@
+﻿<--model Solo acepta una variable, no es fuertemente tipado--></>
+@model string;
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">@ViewBag.Nombre @Model @ViewData["Mensaje"] </h1>
+</div>

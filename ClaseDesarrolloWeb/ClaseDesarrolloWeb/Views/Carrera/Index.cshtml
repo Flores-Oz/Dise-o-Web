@@ -1,0 +1,41 @@
+﻿@model List<ClaseDesarrolloWeb.Data.Models.Carrera>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="alert alert-successs">
+    Guardado
+</div>
+<a class="btn btn-success" asp-controller="Carrera" asp-route-idCar="" asp-action="buscaCarrrera">Nueva Carrera</a> 
+<hr/>
+<div class="card">
+    <div class="card-header">
+        <h3>Listado de Carreras</h3>
+    </div>
+    <div class="card-body">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Codigo</th>
+                    <th>Carrera</th>
+                    <th>Estado</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var fila in Model)
+                {
+                    <tr>
+                        <td>@fila.IdCarrera</td>
+                        <td>@fila.NombreCarrera</td>
+                        <td>@fila.EstadoCarrera</td>
+                        <td>
+                            <a class="btn btn-info" asp-controller="Carrera" asp-route-idCar="@fila.IdCarrera" asp-action="buscaCarrrera">Seleccionar</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+

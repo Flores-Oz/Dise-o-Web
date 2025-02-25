@@ -1,0 +1,43 @@
+﻿@model List<PersonaModel>
+@{
+    ViewData["Title"] = "CRUD";
+    List<SelectListItem> listadoPersonas = (List<SelectListItem>) ViewBag.Personas;
+    /*Se convierte a la fuerza el ViewBag para que sea compatible con asp-items*/
+}
+
+<select class="form-señect form-select-sm" asp-items="listadoPersonas">
+    <option selected disabled>-Seleccione-</option>
+</select>
+<div class="card">
+    <div class="card-header">
+    <h3>Listado de Clientes</h3>
+    </div>
+    <div class="text-center">
+
+
+        El Arroba permite meter codigo de c# dentro del archivo de html
+        <div class="container">
+            <table class="table table-bordered table-hover table-striped">
+                <thead>
+                    <tr>
+                        <th>Codigo</th>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>Edad</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var fila in Model)
+                    {
+                        <tr>
+                            <th>@fila.Codigo</th>
+                            <th>@fila.Nombre</th>
+                            <th>@fila.Apellidos </th>
+                            <th>@fila.Edad</th>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

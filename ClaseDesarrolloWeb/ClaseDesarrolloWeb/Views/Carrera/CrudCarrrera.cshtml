@@ -1,0 +1,35 @@
+﻿@model ClaseDesarrolloWeb.Data.Models.Carrera
+@{
+    ViewData["Title"] = "CrudCarrrera";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@if (Model.IdCarrera == null)
+{
+    <h1>Nueva Carrera</h1>
+}else
+{
+    <h1>Editar Carrera</h1>
+}
+<form method="post" asp-controller="Carrera">
+    <div class="mb-2">
+        <label class="form-label">Codigo:</label>
+        <input readonly="@(Model.IdCarrera!=null?true:false)" class="form-control" type="text" asp-for="IdCarrera" />
+    </div>
+    <div class="mb-2">
+        <label class="form-label">Carrera:</label>
+        <input class="form-control" type="text" asp-for="NombreCarrera" />
+    </div>
+    <div class="mb-2">
+        <label class="form-label">Estado Carrera:</label>
+        <input class="form-checked" type="checkbox" asp-for="EstadoCarrera" />
+    </div>
+    <div class="mb-2">
+        @if(Model.IdCarrera == null){
+        <button class="btn btn-primary btn-sm" asp-action="guardarCarrera" type="submit">Guardar</button>
+        }else
+        {
+         <button class="btn btn-warning btn-sm" asp-action="editarCarrera" type="submit">Editar</button>
+            <a class="btn btn-danger btn-sm" asp-action="eliminarCarrera" asp-route-idCar="@Model.IdCarrera" type="submit">Eliminar</a>
+        }
+    </div>
+</form>
