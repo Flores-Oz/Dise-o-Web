@@ -1,0 +1,35 @@
+﻿@model ZeroOne.Data.Models.Producto
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "CRUDProducto";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    List<SelectListItem> misMarcas = (List<SelectListItem>)ViewBag.Marcas;
+}
+<form method="post" asp-controller="Producto">
+    <div class="row">
+        <label>Codigo</label>
+        <input type="text" asp-for="CodigoProducto" class="form-control form-control-sm" />
+    </div>
+    <div class="row">
+        <label>Codigo</label>
+        <input type="text" asp-for="CodigoProducto" class="form-control form-control-sm" />
+    </div>
+    <div class="row">
+        <label>Codigo</label>
+        <input type="text" asp-for="CodigoProducto" class="form-control form-control-sm" />
+    </div>
+    <div class="row">
+        <label>Precio Costo</label>
+        <input type="number" asp-for="PrecioCosto" class="form-control form-control-sm" />
+    </div>
+    <div class="row">
+        <label>Precio Venta</label>
+        <input type="number" asp-for="PrecioVenta" class="form-control form-control-sm" />
+    </div>
+    <div class="row">
+        <label>Marca</label>
+        <select asp-for="CodigoMarca" asp-items="misMarcas" class="form-select form-select-sm"></select>
+        </div>
+</form>>

@@ -1,0 +1,44 @@
+﻿
+@{
+    ViewData["Title"] = "Cliente";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Cliente</h1>
+<a class="btn btn-success" asp-controller="Carrera" asp-route-idCar="" asp-action="buscaCarrrera">Nueva Carrera</a>
+<hr />
+<div class="card">
+    <div class="card-header">
+        <h3>Listado de Clientes</h3>
+    </div>
+    <div class="card-body">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>NIT</th>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Dirección</th>
+                    <th>Telefono</th>
+                    <th>Fecha Nacimiento</th>
+                    <th>Estado</th>
+                    <th>Municipio</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var fila in Model)
+                {
+                    <tr>
+                        <td>@fila.IdCarrera</td>
+                        <td>@fila.NombreCarrera</td>
+                        <td>@fila.EstadoCarrera</td>
+                        <td>
+                            <a class="btn btn-info" asp-controller="Carrera" asp-route-idCar="@fila.IdCarrera" asp-action="buscaCarrrera">Seleccionar</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

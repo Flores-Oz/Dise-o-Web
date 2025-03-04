@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ZeroOne.props" />
+</Project>

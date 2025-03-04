@@ -1,0 +1,169 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\ZeroOne\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6335E530-7EA4-4C02-BA64-4AA349F52082}|ZeroOne\\ZeroOne.csproj|c:\\users\\ozzca\\onedrive\\documentos\\dise\u00F1o web\\zeroone\\zeroone\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6335E530-7EA4-4C02-BA64-4AA349F52082}|ZeroOne\\ZeroOne.csproj|solutionrelative:zeroone\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6335E530-7EA4-4C02-BA64-4AA349F52082}|ZeroOne\\ZeroOne.csproj|c:\\users\\ozzca\\onedrive\\documentos\\dise\u00F1o web\\zeroone\\zeroone\\views\\producto\\crudproducto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6335E530-7EA4-4C02-BA64-4AA349F52082}|ZeroOne\\ZeroOne.csproj|solutionrelative:zeroone\\views\\producto\\crudproducto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6335E530-7EA4-4C02-BA64-4AA349F52082}|ZeroOne\\ZeroOne.csproj|c:\\users\\ozzca\\onedrive\\documentos\\dise\u00F1o web\\zeroone\\zeroone\\views\\home\\producto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6335E530-7EA4-4C02-BA64-4AA349F52082}|ZeroOne\\ZeroOne.csproj|solutionrelative:zeroone\\views\\home\\producto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6335E530-7EA4-4C02-BA64-4AA349F52082}|ZeroOne\\ZeroOne.csproj|c:\\users\\ozzca\\onedrive\\documentos\\dise\u00F1o web\\zeroone\\zeroone\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6335E530-7EA4-4C02-BA64-4AA349F52082}|ZeroOne\\ZeroOne.csproj|solutionrelative:zeroone\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6335E530-7EA4-4C02-BA64-4AA349F52082}|ZeroOne\\ZeroOne.csproj|c:\\users\\ozzca\\onedrive\\documentos\\dise\u00F1o web\\zeroone\\zeroone\\views\\home\\cliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6335E530-7EA4-4C02-BA64-4AA349F52082}|ZeroOne\\ZeroOne.csproj|solutionrelative:zeroone\\views\\home\\cliente.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6335E530-7EA4-4C02-BA64-4AA349F52082}|ZeroOne\\ZeroOne.csproj|c:\\users\\ozzca\\onedrive\\documentos\\dise\u00F1o web\\zeroone\\zeroone\\controllers\\municipiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6335E530-7EA4-4C02-BA64-4AA349F52082}|ZeroOne\\ZeroOne.csproj|solutionrelative:zeroone\\controllers\\municipiocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6335E530-7EA4-4C02-BA64-4AA349F52082}|ZeroOne\\ZeroOne.csproj|c:\\users\\ozzca\\onedrive\\documentos\\dise\u00F1o web\\zeroone\\zeroone\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6335E530-7EA4-4C02-BA64-4AA349F52082}|ZeroOne\\ZeroOne.csproj|solutionrelative:zeroone\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6335E530-7EA4-4C02-BA64-4AA349F52082}|ZeroOne\\ZeroOne.csproj|c:\\users\\ozzca\\onedrive\\documentos\\dise\u00F1o web\\zeroone\\zeroone\\data\\context\\bdcontextmvc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6335E530-7EA4-4C02-BA64-4AA349F52082}|ZeroOne\\ZeroOne.csproj|solutionrelative:zeroone\\data\\context\\bdcontextmvc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CRUDProducto.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\ZeroOne\\ZeroOne\\Views\\Producto\\CRUDProducto.cshtml",
+              "RelativeDocumentMoniker": "ZeroOne\\Views\\Producto\\CRUDProducto.cshtml",
+              "ToolTip": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\ZeroOne\\ZeroOne\\Views\\Producto\\CRUDProducto.cshtml",
+              "RelativeToolTip": "ZeroOne\\Views\\Producto\\CRUDProducto.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-04T00:34:48.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductoController.cs",
+              "DocumentMoniker": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\ZeroOne\\ZeroOne\\Controllers\\ProductoController.cs",
+              "RelativeDocumentMoniker": "ZeroOne\\Controllers\\ProductoController.cs",
+              "ToolTip": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\ZeroOne\\ZeroOne\\Controllers\\ProductoController.cs",
+              "RelativeToolTip": "ZeroOne\\Controllers\\ProductoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T02:57:22.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Producto.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\ZeroOne\\ZeroOne\\Views\\Home\\Producto.cshtml",
+              "RelativeDocumentMoniker": "ZeroOne\\Views\\Home\\Producto.cshtml",
+              "ToolTip": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\ZeroOne\\ZeroOne\\Views\\Home\\Producto.cshtml",
+              "RelativeToolTip": "ZeroOne\\Views\\Home\\Producto.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T00:08:33.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Cliente.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\ZeroOne\\ZeroOne\\Views\\Home\\Cliente.cshtml",
+              "RelativeDocumentMoniker": "ZeroOne\\Views\\Home\\Cliente.cshtml",
+              "ToolTip": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\ZeroOne\\ZeroOne\\Views\\Home\\Cliente.cshtml",
+              "RelativeToolTip": "ZeroOne\\Views\\Home\\Cliente.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAAB0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-26T00:03:42.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\ZeroOne\\ZeroOne\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ZeroOne\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\ZeroOne\\ZeroOne\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ZeroOne\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T23:51:00.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MunicipioController.cs",
+              "DocumentMoniker": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\ZeroOne\\ZeroOne\\Controllers\\MunicipioController.cs",
+              "RelativeDocumentMoniker": "ZeroOne\\Controllers\\MunicipioController.cs",
+              "ToolTip": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\ZeroOne\\ZeroOne\\Controllers\\MunicipioController.cs",
+              "RelativeToolTip": "ZeroOne\\Controllers\\MunicipioController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T00:47:35.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\ZeroOne\\ZeroOne\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ZeroOne\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\ZeroOne\\ZeroOne\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ZeroOne\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T00:15:05.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BDContextMVC.cs",
+              "DocumentMoniker": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\ZeroOne\\ZeroOne\\Data\\Context\\BDContextMVC.cs",
+              "RelativeDocumentMoniker": "ZeroOne\\Data\\Context\\BDContextMVC.cs",
+              "ToolTip": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\ZeroOne\\ZeroOne\\Data\\Context\\BDContextMVC.cs",
+              "RelativeToolTip": "ZeroOne\\Data\\Context\\BDContextMVC.cs",
+              "ViewState": "AgIAAAIBAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T23:46:04.571Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 723,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
