@@ -1,0 +1,69 @@
+﻿@model ParcialOne.Data.Models.Alumno
+@{
+    ViewData["Title"] = "CRUDAlumnos";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    List<SelectListItem> carreras = (List<SelectListItem>)ViewBag.Carreras;
+}
+@if (Model.CarneAlumno == null)
+{
+    <h1>Nueva Carrera</h1>
+}
+else
+{
+    <h1>Editar Carrera</h1>
+}
+<form method="post" asp-controller="Alumno">
+    <div class="row">
+        <label>Carne</label>
+        <input type="text" asp-for="CarneAlumno" class="form-control form-control-sm" />
+    </div>
+    <div class="row">
+        <label>Primer Nombre</label>
+        <input type="text" asp-for="Nombre1Alumno" class="form-control form-control-sm" />
+    </div>
+    <div class="row">
+        <label>Segundo Nombre</label>
+        <input type="text" asp-for="Nombre2Alumno" class="form-control form-control-sm" />
+    </div>
+    <div class="row">
+        <label>Primer Apellido</label>
+        <input type="text" asp-for="Apellido1Alumno" class="form-control form-control-sm" />
+    </div>
+    <div class="row">
+        <label>Segundo Apellido</label>
+        <input type="text" asp-for="Apellido2Alumno" class="form-control form-control-sm" />
+    </div>
+    <div class="row">
+        <label>Fecha Nacimiento</label>
+        <input type="date" asp-for="FechaNacimiento" class="form-control form-control-sm" />
+    </div>
+    <div class="row">
+        <label>Dirección</label>
+        <input type="text" asp-for="DireccionAlumno" class="form-control form-control-sm" />
+    </div>
+    <div class="row">
+        <label>Telefono</label>
+        <input type="number" asp-for="TelefonoAlumno" class="form-control form-control-sm" />
+    </div>
+    <div class="row">
+        <label>Correo</label>
+        <input type="email" asp-for="CorreoAlumno" class="form-control form-control-sm" />
+    </div>
+    <div class="row">
+        <label>Carrera</label>
+        <select asp-for="CodigoCarrera" asp-items="carreras" class="form-select form-select-sm"></select>
+    </div>
+    <hr/>
+    <div class="mb-2">
+        @if (Model.CarneAlumno == null)
+        {
+            <button class="btn btn-primary btn-sm" asp-action="guardarAlumno" type="submit">Guardar</button>
+        }
+        else
+        {
+            <button class="btn btn-warning btn-sm" asp-action="editarAlumno" type="submit">Editar</button>
+            <a class="btn btn-danger btn-sm" asp-action="eliminarAlumno" asp-route-carne="@Model.CarneAlumno" type="submit">Eliminar</a>
+        }
+    </div>
+</form>
+

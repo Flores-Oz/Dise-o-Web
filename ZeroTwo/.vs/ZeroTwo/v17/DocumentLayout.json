@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\ZeroTwo\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0838C8A4-FECF-4B2F-92D1-60148B26CD42}|ZeroTwo\\ZeroTwo.csproj|c:\\users\\ozzca\\onedrive\\documentos\\dise\u00F1o web\\zerotwo\\zerotwo\\views\\producto\\crudproducto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0838C8A4-FECF-4B2F-92D1-60148B26CD42}|ZeroTwo\\ZeroTwo.csproj|solutionrelative:zerotwo\\views\\producto\\crudproducto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0838C8A4-FECF-4B2F-92D1-60148B26CD42}|ZeroTwo\\ZeroTwo.csproj|c:\\users\\ozzca\\onedrive\\documentos\\dise\u00F1o web\\zerotwo\\zerotwo\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0838C8A4-FECF-4B2F-92D1-60148B26CD42}|ZeroTwo\\ZeroTwo.csproj|solutionrelative:zerotwo\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,8 +15,8 @@
       "RelativeMoniker": "D:0:0:{0838C8A4-FECF-4B2F-92D1-60148B26CD42}|ZeroTwo\\ZeroTwo.csproj|solutionrelative:zerotwo\\views\\producto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0838C8A4-FECF-4B2F-92D1-60148B26CD42}|ZeroTwo\\ZeroTwo.csproj|c:\\users\\ozzca\\onedrive\\documentos\\dise\u00F1o web\\zerotwo\\zerotwo\\views\\producto\\crudproducto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0838C8A4-FECF-4B2F-92D1-60148B26CD42}|ZeroTwo\\ZeroTwo.csproj|solutionrelative:zerotwo\\views\\producto\\crudproducto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{0838C8A4-FECF-4B2F-92D1-60148B26CD42}|ZeroTwo\\ZeroTwo.csproj|c:\\users\\ozzca\\onedrive\\documentos\\dise\u00F1o web\\zerotwo\\zerotwo\\models\\productomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0838C8A4-FECF-4B2F-92D1-60148B26CD42}|ZeroTwo\\ZeroTwo.csproj|solutionrelative:zerotwo\\models\\productomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0838C8A4-FECF-4B2F-92D1-60148B26CD42}|ZeroTwo\\ZeroTwo.csproj|c:\\users\\ozzca\\onedrive\\documentos\\dise\u00F1o web\\zerotwo\\zerotwo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -26,11 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\ZeroTwo\\ZeroTwo\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "ZeroTwo\\Views\\Shared\\_Layout.cshtml",
@@ -39,7 +43,19 @@
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-04T22:50:35.741Z",
-              "IsPinned": true,
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductoModel.cs",
+              "DocumentMoniker": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\ZeroTwo\\ZeroTwo\\Models\\ProductoModel.cs",
+              "RelativeDocumentMoniker": "ZeroTwo\\Models\\ProductoModel.cs",
+              "ToolTip": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\ZeroTwo\\ZeroTwo\\Models\\ProductoModel.cs",
+              "RelativeToolTip": "ZeroTwo\\Models\\ProductoModel.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T06:05:06.148Z",
               "EditorCaption": ""
             },
             {
@@ -52,39 +68,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "CRUDProducto.cshtml",
               "DocumentMoniker": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\ZeroTwo\\ZeroTwo\\Views\\Producto\\CRUDProducto.cshtml",
               "RelativeDocumentMoniker": "ZeroTwo\\Views\\Producto\\CRUDProducto.cshtml",
               "ToolTip": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\ZeroTwo\\ZeroTwo\\Views\\Producto\\CRUDProducto.cshtml",
               "RelativeToolTip": "ZeroTwo\\Views\\Producto\\CRUDProducto.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADIAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-04T23:04:01.876Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\ZeroTwo\\ZeroTwo\\Views\\Producto\\Index.cshtml",
               "RelativeDocumentMoniker": "ZeroTwo\\Views\\Producto\\Index.cshtml",
               "ToolTip": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\ZeroTwo\\ZeroTwo\\Views\\Producto\\Index.cshtml",
               "RelativeToolTip": "ZeroTwo\\Views\\Producto\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABuAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADAAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-04T23:00:01.671Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ProductoController.cs",
               "DocumentMoniker": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\ZeroTwo\\ZeroTwo\\Controllers\\ProductoController.cs",
               "RelativeDocumentMoniker": "ZeroTwo\\Controllers\\ProductoController.cs",
               "ToolTip": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\ZeroTwo\\ZeroTwo\\Controllers\\ProductoController.cs",
               "RelativeToolTip": "ZeroTwo\\Controllers\\ProductoController.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAAAC8AAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwCMAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-04T22:53:22.248Z",
               "EditorCaption": ""

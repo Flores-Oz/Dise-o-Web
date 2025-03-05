@@ -45,7 +45,7 @@ namespace ZeroTwo.Controllers
                               CodigoMarca = pro.CodigoMarca,
                               nombreMarca = pro.CodigoMarcaNavigation.NombreMarca
                           };
-            IQueryable<Producto> consulta = ;
+            var consulta = new ProductoModel();
             if (codProd != 0) { 
             consulta  = from pro in db.Productos
                            where pro.CodigoProducto == codProd

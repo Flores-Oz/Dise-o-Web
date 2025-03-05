@@ -1,0 +1,56 @@
+﻿@model List<AlumnoModel>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="row">
+    <div class="col">
+        <a class="btn btn-success btn-sm" asp-controller="Alumno" asp-action="buscaAlumnos">Nuevo Alumno</a>
+    </div>
+</div>
+<h1>Alumnos</h1>
+<div class="card">
+    <div class="card-header">
+        <h3>Listado de Alumnos</h3>
+    </div>
+    <div class="card-body">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Carne</th>
+                    <th>Primer Nombre</th>
+                    <th>Segundo Nombre</th>
+                    <th>Primer Apellido</th>
+                    <th>Segundo Apellido</th>
+                    <th>Fecha de Nacimiento</th>
+                    <th>Dirección</th>
+                    <th>Telefono</th>
+                    <th>Correo</th>
+                    <th>Carrera</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var fila in Model)
+                {
+                    <tr>
+                        <td>@fila.CarneAlumno</td>
+                        <td>@fila.Nombre1Alumno</td>
+                        <td>@fila.Nombre2Alumno</td>
+                        <td>@fila.Apellido1Alumno</td>
+                        <td>@fila.Apellido2Alumno</td>
+                        <td>@fila.FechaNacimiento</td>
+                        <td>@fila.DireccionAlumno</td>
+                        <td>@fila.TelefonoAlumno</td>
+                        <td>@fila.CorreoAlumno</td>
+                        <td>@fila.Carrera</td>
+                        <td>
+                            <a class="btn btn-info" asp-controller="Alumno" asp-route-carne="@fila.CarneAlumno" asp-action="buscaAlumnos">Seleccionar</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+

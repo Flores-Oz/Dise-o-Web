@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\ParcialOne\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9696A52F-6F49-4B26-84E2-5D2778862383}|ParcialOne\\ParcialOne.csproj|c:\\users\\ozzca\\onedrive\\documentos\\dise\u00F1o web\\parcialone\\parcialone\\controllers\\alumnocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9696A52F-6F49-4B26-84E2-5D2778862383}|ParcialOne\\ParcialOne.csproj|solutionrelative:parcialone\\controllers\\alumnocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9696A52F-6F49-4B26-84E2-5D2778862383}|ParcialOne\\ParcialOne.csproj|c:\\users\\ozzca\\onedrive\\documentos\\dise\u00F1o web\\parcialone\\parcialone\\views\\alumno\\crudalumnos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9696A52F-6F49-4B26-84E2-5D2778862383}|ParcialOne\\ParcialOne.csproj|solutionrelative:parcialone\\views\\alumno\\crudalumnos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9696A52F-6F49-4B26-84E2-5D2778862383}|ParcialOne\\ParcialOne.csproj|c:\\users\\ozzca\\onedrive\\documentos\\dise\u00F1o web\\parcialone\\parcialone\\views\\alumno\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9696A52F-6F49-4B26-84E2-5D2778862383}|ParcialOne\\ParcialOne.csproj|solutionrelative:parcialone\\views\\alumno\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CRUDAlumnos.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\ParcialOne\\ParcialOne\\Views\\Alumno\\CRUDAlumnos.cshtml",
+              "RelativeDocumentMoniker": "ParcialOne\\Views\\Alumno\\CRUDAlumnos.cshtml",
+              "ToolTip": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\ParcialOne\\ParcialOne\\Views\\Alumno\\CRUDAlumnos.cshtml",
+              "RelativeToolTip": "ParcialOne\\Views\\Alumno\\CRUDAlumnos.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-05T07:05:23.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\ParcialOne\\ParcialOne\\Views\\Alumno\\Index.cshtml",
+              "RelativeDocumentMoniker": "ParcialOne\\Views\\Alumno\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\ParcialOne\\ParcialOne\\Views\\Alumno\\Index.cshtml",
+              "RelativeToolTip": "ParcialOne\\Views\\Alumno\\Index.cshtml",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAADIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-05T05:59:22.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AlumnoController.cs",
+              "DocumentMoniker": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\ParcialOne\\ParcialOne\\Controllers\\AlumnoController.cs",
+              "RelativeDocumentMoniker": "ParcialOne\\Controllers\\AlumnoController.cs",
+              "ToolTip": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\ParcialOne\\ParcialOne\\Controllers\\AlumnoController.cs",
+              "RelativeToolTip": "ParcialOne\\Controllers\\AlumnoController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAswDQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T05:52:51.676Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 723,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
