@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Diseño Web\\ClaseDesarrolloWeb\\ClaseDesarrolloWeb\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ClaseDesarrolloWeb.bundle.scp.css",
-      "PackagePath": "staticwebassets\\ClaseDesarrolloWeb.bundle.scp.css"
+      "PackagePath": "staticwebassets\\ClaseDesarrolloWeb.5corofbm9u.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Diseño Web\\ClaseDesarrolloWeb\\ClaseDesarrolloWeb\\wwwroot\\css\\site.css",
@@ -243,6 +243,10 @@
     {
       "Id": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Diseño Web\\ClaseDesarrolloWeb\\ClaseDesarrolloWeb\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ClaseDesarrolloWeb.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ClaseDesarrolloWeb.Microsoft.AspNetCore.StaticWebAssets.props",

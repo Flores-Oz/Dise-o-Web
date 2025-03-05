@@ -1,0 +1,50 @@
+﻿@model List<ProductoModel>
+@{
+    ViewData["Title"] = "Producto";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="row">
+    <div class="col">
+        <a class="btn btn-success btn-sm" asp-controller="Producto" asp-action="BuscarProducto">Nuevo Producto</a>
+    </div>
+</div>
+<h1>Producto</h1>
+<div class="card">
+    <div class="card-header">
+        <h3>Listado de Productos</h3>
+    </div>
+    <div class="card-body">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Codigo</th>
+                    <th>Nombre</th>
+                    <th>Precio Costo</th>
+                    <th>Precio Venta</th>
+                    <th>Existencia</th>
+                    <th>Codigo Marca</th>
+                    <th>Nombre Marca</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var fila in Model)
+                {
+                    <tr>
+                        <td>@fila.CodigoProducto</td>
+                        <td>@fila.NombreProducto</td>
+                        <td>@fila.PrecioCosto</td>
+                        <td>@fila.PrecioVenta</td>
+                        <td>@fila.ExistenciaProducto</td>
+                        <td>@fila.CodigoMarca</td>
+                        <td>@fila.nombreMarca</td>
+                        <td>
+                            <a class="btn btn-info" asp-controller="Producto" asp-route-codProd="@fila.CodigoProducto" asp-action="buscarProducto">Seleccionar</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+

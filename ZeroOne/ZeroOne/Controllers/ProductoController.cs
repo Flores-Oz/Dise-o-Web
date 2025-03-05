@@ -10,7 +10,7 @@ namespace ZeroOne.Controllers
     public class ProductoController : Controller
     {
         BDContextMVC db = new BDContextMVC();
-        public IActionResult Index()
+        public IActionResult Producto()
         {
             var listado = db.Productos.Select(pro => new ProductoModel
             {
@@ -45,6 +45,7 @@ namespace ZeroOne.Controllers
                               CodigoMarca = pro.CodigoMarca,
                               nombreMarca = pro.CodigoMarcaNavigation.NombreMarca
                           };
+            
             var consulta = from pro in db.Productos
                            where pro.CodigoProducto == codProd
                            select pro;

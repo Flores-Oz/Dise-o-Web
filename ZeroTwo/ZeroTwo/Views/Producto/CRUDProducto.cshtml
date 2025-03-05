@@ -1,0 +1,51 @@
+﻿@model ZeroTwo.Data.Models.Producto
+@{
+    ViewData["Title"] = "CRUDProducto";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    List<SelectListItem> misMarcas = (List<SelectListItem>)ViewBag.Marcas;
+}
+@if (Model.CodigoProducto == 0)
+{
+    <h1>Nueva Carrera</h1>
+}
+else
+{
+    <h1>Editar Carrera</h1>
+}
+<form method="post" asp-controller="Producto">
+    <div class="row">
+        <label>Codigo</label>
+        <input type="text" asp-for="CodigoProducto" class="form-control form-control-sm" />
+    </div>
+    <div class="row">
+        <label>Nombre del Producto</label>
+        <input type="text" asp-for="NombreProducto" class="form-control form-control-sm" />
+    </div>
+    <div class="row">
+        <label>Precio Costo</label>
+        <input type="number" asp-for="PrecioCosto" class="form-control form-control-sm" />
+    </div>
+    <div class="row">
+        <label>Precio Venta</label>
+        <input type="number" asp-for="PrecioVenta" class="form-control form-control-sm" />
+    </div>
+    <div class="row">
+        <label>Existencias</label>
+        <input type="text" asp-for="ExistenciaProducto" class="form-control form-control-sm" />
+    </div>
+    <div class="row">
+        <label>Marca</label>
+        <select asp-for="CodigoMarca" asp-items="misMarcas" class="form-select form-select-sm"></select>
+    </div>
+    <div class="mb-2">
+        @if (Model.CodigoProducto == 0)
+        {
+            <button class="btn btn-primary btn-sm" asp-action="guardarProducto" type="submit">Guardar</button>
+        }
+        else
+        {
+            <button class="btn btn-warning btn-sm" asp-action="editarProducto" type="submit">Editar</button>
+            <a class="btn btn-danger btn-sm" asp-action="eliminarProducto" asp-route-idPro="@Model.CodigoProducto" type="submit">Eliminar</a>
+        }
+    </div>
+</form>>

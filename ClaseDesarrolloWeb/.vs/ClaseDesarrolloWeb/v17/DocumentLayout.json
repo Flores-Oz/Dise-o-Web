@@ -15,6 +15,10 @@
       "RelativeMoniker": "D:0:0:{B3AED995-5F22-4D98-A4E4-86731E01D4F2}|ClaseDesarrolloWeb\\ClaseDesarrolloWeb.csproj|solutionrelative:clasedesarrolloweb\\views\\carrera\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B3AED995-5F22-4D98-A4E4-86731E01D4F2}|ClaseDesarrolloWeb\\ClaseDesarrolloWeb.csproj|c:\\users\\ozzca\\onedrive\\documentos\\dise\u00F1o web\\clasedesarrolloweb\\clasedesarrolloweb\\clasedesarrolloweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B3AED995-5F22-4D98-A4E4-86731E01D4F2}|ClaseDesarrolloWeb\\ClaseDesarrolloWeb.csproj|solutionrelative:clasedesarrolloweb\\clasedesarrolloweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B3AED995-5F22-4D98-A4E4-86731E01D4F2}|ClaseDesarrolloWeb\\ClaseDesarrolloWeb.csproj|c:\\users\\ozzca\\onedrive\\documentos\\dise\u00F1o web\\clasedesarrolloweb\\clasedesarrolloweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3AED995-5F22-4D98-A4E4-86731E01D4F2}|ClaseDesarrolloWeb\\ClaseDesarrolloWeb.csproj|solutionrelative:clasedesarrolloweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B3AED995-5F22-4D98-A4E4-86731E01D4F2}|ClaseDesarrolloWeb\\ClaseDesarrolloWeb.csproj|c:\\users\\ozzca\\onedrive\\documentos\\dise\u00F1o web\\clasedesarrolloweb\\clasedesarrolloweb\\data\\context\\bdcontextmvc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3AED995-5F22-4D98-A4E4-86731E01D4F2}|ClaseDesarrolloWeb\\ClaseDesarrolloWeb.csproj|solutionrelative:clasedesarrolloweb\\data\\context\\bdcontextmvc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3AED995-5F22-4D98-A4E4-86731E01D4F2}|ClaseDesarrolloWeb\\ClaseDesarrolloWeb.csproj|c:\\users\\ozzca\\onedrive\\documentos\\dise\u00F1o web\\clasedesarrolloweb\\clasedesarrolloweb\\clasedesarrolloweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{B3AED995-5F22-4D98-A4E4-86731E01D4F2}|ClaseDesarrolloWeb\\ClaseDesarrolloWeb.csproj|solutionrelative:clasedesarrolloweb\\clasedesarrolloweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B3AED995-5F22-4D98-A4E4-86731E01D4F2}|ClaseDesarrolloWeb\\ClaseDesarrolloWeb.csproj|c:\\users\\ozzca\\onedrive\\documentos\\dise\u00F1o web\\clasedesarrolloweb\\clasedesarrolloweb\\views\\home\\crud.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -68,9 +68,10 @@
               "RelativeDocumentMoniker": "ClaseDesarrolloWeb\\Views\\Carrera\\CrudCarrrera.cshtml",
               "ToolTip": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\ClaseDesarrolloWeb\\ClaseDesarrolloWeb\\Views\\Carrera\\CrudCarrrera.cshtml",
               "RelativeToolTip": "ClaseDesarrolloWeb\\Views\\Carrera\\CrudCarrrera.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAABuAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-19T02:45:39.841Z"
+              "WhenOpened": "2025-02-19T02:45:39.841Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -82,7 +83,8 @@
               "RelativeToolTip": "ClaseDesarrolloWeb\\Views\\Carrera\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-18T01:04:32.508Z"
+              "WhenOpened": "2025-02-18T01:04:32.508Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -92,26 +94,27 @@
               "RelativeDocumentMoniker": "ClaseDesarrolloWeb\\Controllers\\CarreraController.cs",
               "ToolTip": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\ClaseDesarrolloWeb\\ClaseDesarrolloWeb\\Controllers\\CarreraController.cs",
               "RelativeToolTip": "ClaseDesarrolloWeb\\Controllers\\CarreraController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAYwDgAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAkwDUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-18T01:02:11.073Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "ClaseDesarrolloWeb.csproj",
               "DocumentMoniker": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\ClaseDesarrolloWeb\\ClaseDesarrolloWeb\\ClaseDesarrolloWeb.csproj",
               "RelativeDocumentMoniker": "ClaseDesarrolloWeb\\ClaseDesarrolloWeb.csproj",
               "ToolTip": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\ClaseDesarrolloWeb\\ClaseDesarrolloWeb\\ClaseDesarrolloWeb.csproj",
               "RelativeToolTip": "ClaseDesarrolloWeb\\ClaseDesarrolloWeb.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAKAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-12T02:46:04.399Z"
+              "WhenOpened": "2025-02-12T02:46:04.399Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\ClaseDesarrolloWeb\\ClaseDesarrolloWeb\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "ClaseDesarrolloWeb\\Controllers\\HomeController.cs",
@@ -123,7 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\ClaseDesarrolloWeb\\ClaseDesarrolloWeb\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "ClaseDesarrolloWeb\\Views\\Shared\\_Layout.cshtml",
@@ -135,7 +138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "BDContextMVC.cs",
               "DocumentMoniker": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\ClaseDesarrolloWeb\\ClaseDesarrolloWeb\\Data\\Context\\BDContextMVC.cs",
               "RelativeDocumentMoniker": "ClaseDesarrolloWeb\\Data\\Context\\BDContextMVC.cs",

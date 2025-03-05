@@ -160,7 +160,6 @@ C:\Users\Ozzca\OneDrive\Documentos\Diseño Web\ClaseDesarrolloWeb\ClaseDesarroll
 C:\Users\Ozzca\OneDrive\Documentos\Diseño Web\ClaseDesarrolloWeb\ClaseDesarrolloWeb\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 C:\Users\Ozzca\OneDrive\Documentos\Diseño Web\ClaseDesarrolloWeb\ClaseDesarrolloWeb\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 C:\Users\Ozzca\OneDrive\Documentos\Diseño Web\ClaseDesarrolloWeb\ClaseDesarrolloWeb\obj\Debug\net8.0\ClaseDesarrolloWeb.csproj.AssemblyReference.cache
-C:\Users\Ozzca\OneDrive\Documentos\Diseño Web\ClaseDesarrolloWeb\ClaseDesarrolloWeb\obj\Debug\net8.0\ClaseDesarrolloWeb.csproj.CopyComplete
 C:\Users\Ozzca\OneDrive\Documentos\Diseño Web\ClaseDesarrolloWeb\ClaseDesarrolloWeb\bin\Debug\net8.0\Microsoft.AspNetCore.Authorization.dll
 C:\Users\Ozzca\OneDrive\Documentos\Diseño Web\ClaseDesarrolloWeb\ClaseDesarrolloWeb\bin\Debug\net8.0\Microsoft.AspNetCore.Components.dll
 C:\Users\Ozzca\OneDrive\Documentos\Diseño Web\ClaseDesarrolloWeb\ClaseDesarrolloWeb\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Forms.dll
@@ -291,3 +290,9 @@ C:\Users\Ozzca\OneDrive\Documentos\Diseño Web\ClaseDesarrolloWeb\ClaseDesarroll
 C:\Users\Ozzca\OneDrive\Documentos\Diseño Web\ClaseDesarrolloWeb\ClaseDesarrolloWeb\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 C:\Users\Ozzca\OneDrive\Documentos\Diseño Web\ClaseDesarrolloWeb\ClaseDesarrolloWeb\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Ozzca\OneDrive\Documentos\Diseño Web\ClaseDesarrolloWeb\ClaseDesarrolloWeb\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Users\Ozzca\OneDrive\Documentos\Diseño Web\ClaseDesarrolloWeb\ClaseDesarrolloWeb\bin\Debug\net8.0\ClaseDesarrolloWeb.staticwebassets.endpoints.json
+C:\Users\Ozzca\OneDrive\Documentos\Diseño Web\ClaseDesarrolloWeb\ClaseDesarrolloWeb\obj\Debug\net8.0\ClaseDesarrolloWeb.sourcelink.json
+C:\Users\Ozzca\OneDrive\Documentos\Diseño Web\ClaseDesarrolloWeb\ClaseDesarrolloWeb\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Ozzca\OneDrive\Documentos\Diseño Web\ClaseDesarrolloWeb\ClaseDesarrolloWeb\obj\Debug\net8.0\staticwebassets\msbuild.ClaseDesarrolloWeb.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Ozzca\OneDrive\Documentos\Diseño Web\ClaseDesarrolloWeb\ClaseDesarrolloWeb\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Ozzca\OneDrive\Documentos\Diseño Web\ClaseDesarrolloWeb\ClaseDesarrolloWeb\obj\Debug\net8.0\ClaseDes.FB38CF5A.Up2Date
