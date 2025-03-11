@@ -39,17 +39,15 @@ namespace ParcialOne.Controllers
                               CodigoCarrera = pro.CodigoCarrera,
                               Carrera = pro.CodigoCarreraNavigation.NombreCarrera
                           };
+            var consulta = new Alumno();
             if (carne != null)
             {
-                var consulta = from pro in db.Alumnos
+                consulta = (from pro in db.Alumnos
                                where pro.CarneAlumno == carne
-                               select pro;
-                return View("CRUDAlumnos", consulta.FirstOrDefault());
+                               select pro).FirstOrDefault();
+               
             }
-            else {
-                var nAlumno = new Alumno();
-                return View("CRUDAlumnos", nAlumno);
-            }
+            return View("CRUDAlumnos", consulta);
         }
 
         public IActionResult guardarAlumno(Alumno nuevoAlumno)
