@@ -9,8 +9,10 @@ const producto={
 const numeros=[15,26,58]
 console.log(numeros)
 numeros.push(24)
+/*Push agregar al Final*/
 console.log(numeros)
 numeros.unshift(1)
+/*Unshift agregar al Inicio*/
 console.log(numeros)
 console.log(numeros.length)
 

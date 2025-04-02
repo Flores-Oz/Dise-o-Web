@@ -1,0 +1,49 @@
+/* _content/CRUDMVC_JS/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-pblih9nxih] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-pblih9nxih] {
+  color: #0077cc;
+}
+
+.btn-primary[b-pblih9nxih] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-pblih9nxih], .nav-pills .show > .nav-link[b-pblih9nxih] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-pblih9nxih] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-pblih9nxih] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-pblih9nxih] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-pblih9nxih] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-pblih9nxih] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
