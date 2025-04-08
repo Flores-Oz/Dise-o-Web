@@ -7,16 +7,20 @@
       "RelativeMoniker": "D:0:0:{4A0DEDD2-FFA7-499F-9E68-009D8C6589E0}|CRUDMVC_JS\\CRUDMVC_JS.csproj|solutionrelative:crudmvc_js\\wwwroot\\js\\producto\\producto.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{4A0DEDD2-FFA7-499F-9E68-009D8C6589E0}|CRUDMVC_JS\\CRUDMVC_JS.csproj|c:\\users\\ozzca\\onedrive\\documentos\\dise\u00F1o web\\crudmvc_js\\crudmvc_js\\data\\createmodels\\productomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A0DEDD2-FFA7-499F-9E68-009D8C6589E0}|CRUDMVC_JS\\CRUDMVC_JS.csproj|solutionrelative:crudmvc_js\\data\\createmodels\\productomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4A0DEDD2-FFA7-499F-9E68-009D8C6589E0}|CRUDMVC_JS\\CRUDMVC_JS.csproj|c:\\users\\ozzca\\onedrive\\documentos\\dise\u00F1o web\\crudmvc_js\\crudmvc_js\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A0DEDD2-FFA7-499F-9E68-009D8C6589E0}|CRUDMVC_JS\\CRUDMVC_JS.csproj|solutionrelative:crudmvc_js\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A0DEDD2-FFA7-499F-9E68-009D8C6589E0}|CRUDMVC_JS\\CRUDMVC_JS.csproj|c:\\users\\ozzca\\onedrive\\documentos\\dise\u00F1o web\\crudmvc_js\\crudmvc_js\\views\\producto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4A0DEDD2-FFA7-499F-9E68-009D8C6589E0}|CRUDMVC_JS\\CRUDMVC_JS.csproj|solutionrelative:crudmvc_js\\views\\producto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4A0DEDD2-FFA7-499F-9E68-009D8C6589E0}|CRUDMVC_JS\\CRUDMVC_JS.csproj|c:\\users\\ozzca\\onedrive\\documentos\\dise\u00F1o web\\crudmvc_js\\crudmvc_js\\data\\dtomodel\\responsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A0DEDD2-FFA7-499F-9E68-009D8C6589E0}|CRUDMVC_JS\\CRUDMVC_JS.csproj|solutionrelative:crudmvc_js\\data\\dtomodel\\responsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A0DEDD2-FFA7-499F-9E68-009D8C6589E0}|CRUDMVC_JS\\CRUDMVC_JS.csproj|c:\\users\\ozzca\\onedrive\\documentos\\dise\u00F1o web\\crudmvc_js\\crudmvc_js\\data\\context\\bdcontextmvc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A0DEDD2-FFA7-499F-9E68-009D8C6589E0}|CRUDMVC_JS\\CRUDMVC_JS.csproj|solutionrelative:crudmvc_js\\data\\context\\bdcontextmvc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A0DEDD2-FFA7-499F-9E68-009D8C6589E0}|CRUDMVC_JS\\CRUDMVC_JS.csproj|c:\\users\\ozzca\\onedrive\\documentos\\dise\u00F1o web\\crudmvc_js\\crudmvc_js\\views\\producto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4A0DEDD2-FFA7-499F-9E68-009D8C6589E0}|CRUDMVC_JS\\CRUDMVC_JS.csproj|solutionrelative:crudmvc_js\\views\\producto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,22 +30,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductoController.cs",
-              "DocumentMoniker": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\CRUDMVC_JS\\CRUDMVC_JS\\Controllers\\ProductoController.cs",
-              "RelativeDocumentMoniker": "CRUDMVC_JS\\Controllers\\ProductoController.cs",
-              "ToolTip": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\CRUDMVC_JS\\CRUDMVC_JS\\Controllers\\ProductoController.cs",
-              "RelativeToolTip": "CRUDMVC_JS\\Controllers\\ProductoController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAmwBAAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T02:29:51.31Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
@@ -52,41 +42,67 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ResponseModel.cs",
+              "DocumentMoniker": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\CRUDMVC_JS\\CRUDMVC_JS\\Data\\DtoModel\\ResponseModel.cs",
+              "RelativeDocumentMoniker": "CRUDMVC_JS\\Data\\DtoModel\\ResponseModel.cs",
+              "ToolTip": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\CRUDMVC_JS\\CRUDMVC_JS\\Data\\DtoModel\\ResponseModel.cs",
+              "RelativeToolTip": "CRUDMVC_JS\\Data\\DtoModel\\ResponseModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T00:40:23.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductoController.cs",
+              "DocumentMoniker": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\CRUDMVC_JS\\CRUDMVC_JS\\Controllers\\ProductoController.cs",
+              "RelativeDocumentMoniker": "CRUDMVC_JS\\Controllers\\ProductoController.cs",
+              "ToolTip": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\CRUDMVC_JS\\CRUDMVC_JS\\Controllers\\ProductoController.cs",
+              "RelativeToolTip": "CRUDMVC_JS\\Controllers\\ProductoController.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAAAFIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T03:18:14.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductoModel.cs",
+              "DocumentMoniker": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\CRUDMVC_JS\\CRUDMVC_JS\\Data\\CreateModels\\ProductoModel.cs",
+              "RelativeDocumentMoniker": "CRUDMVC_JS\\Data\\CreateModels\\ProductoModel.cs",
+              "ToolTip": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\CRUDMVC_JS\\CRUDMVC_JS\\Data\\CreateModels\\ProductoModel.cs",
+              "RelativeToolTip": "CRUDMVC_JS\\Data\\CreateModels\\ProductoModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T03:12:21.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "producto.js",
               "DocumentMoniker": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\CRUDMVC_JS\\CRUDMVC_JS\\wwwroot\\js\\Producto\\producto.js",
               "RelativeDocumentMoniker": "CRUDMVC_JS\\wwwroot\\js\\Producto\\producto.js",
               "ToolTip": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\CRUDMVC_JS\\CRUDMVC_JS\\wwwroot\\js\\Producto\\producto.js",
               "RelativeToolTip": "CRUDMVC_JS\\wwwroot\\js\\Producto\\producto.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABKAAAAAAAAAA==",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAAAGEAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-03-26T02:50:19.789Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\CRUDMVC_JS\\CRUDMVC_JS\\Views\\Producto\\Index.cshtml",
               "RelativeDocumentMoniker": "CRUDMVC_JS\\Views\\Producto\\Index.cshtml",
               "ToolTip": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\CRUDMVC_JS\\CRUDMVC_JS\\Views\\Producto\\Index.cshtml",
               "RelativeToolTip": "CRUDMVC_JS\\Views\\Producto\\Index.cshtml",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAACAAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAhwC8AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-26T02:32:32.66Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BDContextMVC.cs",
-              "DocumentMoniker": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\CRUDMVC_JS\\CRUDMVC_JS\\Data\\Context\\BDContextMVC.cs",
-              "RelativeDocumentMoniker": "CRUDMVC_JS\\Data\\Context\\BDContextMVC.cs",
-              "ToolTip": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\CRUDMVC_JS\\CRUDMVC_JS\\Data\\Context\\BDContextMVC.cs",
-              "RelativeToolTip": "CRUDMVC_JS\\Data\\Context\\BDContextMVC.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T02:29:10.931Z",
               "EditorCaption": ""
             }
           ]

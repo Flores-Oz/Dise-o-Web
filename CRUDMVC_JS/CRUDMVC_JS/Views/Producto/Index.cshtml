@@ -24,10 +24,33 @@
         <div class="col-6 mb-2">
             <select class="form-select" id="selecMarca"></select>
         </div>
+        <div class="col-6 mb-2">
+            <select class="form-select" id="selecModelo"></select>
+        </div>
         <div class="col-12 mb-2">
-            <button class="btn btn-success">Agregar</button>
+            <button class="btn btn-success" id="btnAgregar">Agregar</button>
         </div>
     </div>
+
+    <div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Codigo</th>
+                    <th>Nombre</th>
+                    <th>Marca</th>
+                    <th>Precio Costo</th>
+                    <th>Precio Venta</th>
+                    <th>Existencia</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="tbproductos"></tbody>
+        </table>
+    </div>
+
 </div>
+
+
 
 <script type="text/javascript" src="~/js/producto/producto.js"></script> 

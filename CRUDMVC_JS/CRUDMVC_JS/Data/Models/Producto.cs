@@ -15,9 +15,9 @@ public partial class Producto
 
     public int ExistenciaProducto { get; set; }
 
-    public int CodigoMarca { get; set; }
+    public int CodigoModelo { get; set; }
 
-    public virtual Marca CodigoMarcaNavigation { get; set; } = null!;
+    public virtual Modelo CodigoModeloNavigation { get; set; } = null!;
 
     public virtual ICollection<DetalleCompra> DetalleCompras { get; set; } = new List<DetalleCompra>();
 

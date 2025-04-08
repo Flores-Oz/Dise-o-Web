@@ -32,6 +32,8 @@ public partial class BDContextMVC : DbContext
 
     public virtual DbSet<Marca> Marcas { get; set; }
 
+    public virtual DbSet<Modelo> Modelos { get; set; }
+
     public virtual DbSet<Municipio> Municipios { get; set; }
 
     public virtual DbSet<Producto> Productos { get; set; }
@@ -258,6 +260,23 @@ public partial class BDContextMVC : DbContext
                 .HasColumnName("nombre_marca");
         });
 
+        modelBuilder.Entity<Modelo>(entity =>
+        {
+            entity.HasKey(e => e.CodigoModelo);
+
+            entity.ToTable("Modelo");
+
+            entity.Property(e => e.CodigoModelo).HasColumnName("codigo_Modelo");
+            entity.Property(e => e.CodigoMarca).HasColumnName("codigo_Marca");
+            entity.Property(e => e.NombreModelo)
+                .HasMaxLength(50)
+                .HasColumnName("nombre_Modelo");
+
+            entity.HasOne(d => d.CodigoMarcaNavigation).WithMany(p => p.Modelos)
+                .HasForeignKey(d => d.CodigoMarca)
+                .HasConstraintName("FK_Modelo_Marca");
+        });
+
         modelBuilder.Entity<Municipio>(entity =>
         {
             entity.HasKey(e => e.CodigoMunicipio);
@@ -285,7 +304,7 @@ public partial class BDContextMVC : DbContext
             entity.ToTable("Producto");
 
             entity.Property(e => e.CodigoProducto).HasColumnName("codigo_producto");
-            entity.Property(e => e.CodigoMarca).HasColumnName("codigo_marca");
+            entity.Property(e => e.CodigoModelo).HasColumnName("codigo_Modelo");
             entity.Property(e => e.ExistenciaProducto).HasColumnName("existencia_producto");
             entity.Property(e => e.NombreProducto)
                 .HasMaxLength(100)
@@ -297,10 +316,10 @@ public partial class BDContextMVC : DbContext
                 .HasColumnType("money")
                 .HasColumnName("precio_venta");
 
-            entity.HasOne(d => d.CodigoMarcaNavigation).WithMany(p => p.Productos)
-                .HasForeignKey(d => d.CodigoMarca)
+            entity.HasOne(d => d.CodigoModeloNavigation).WithMany(p => p.Productos)
+                .HasForeignKey(d => d.CodigoModelo)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__Producto__codigo__239E4DCF");
+                .HasConstraintName("FK_Producto_Modelo");
         });
 
         modelBuilder.Entity<Proveedor>(entity =>

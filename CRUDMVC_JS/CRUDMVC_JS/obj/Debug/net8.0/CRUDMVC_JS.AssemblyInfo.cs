@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CRUDMVC_JS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+617f4124f7d4547386f81e0477f0803067fbbb52")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+080bd33f6e01e9b803711885cc5a8454335d82d5")]
 [assembly: System.Reflection.AssemblyProductAttribute("CRUDMVC_JS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CRUDMVC_JS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

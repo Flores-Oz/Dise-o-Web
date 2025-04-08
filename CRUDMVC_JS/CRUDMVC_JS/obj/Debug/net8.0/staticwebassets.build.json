@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GMupEHY7CmOqqjb1TGnjVA1SG6qRj9MgIdOepSUbVXo=",
+  "Hash": "VZNBG7GiN6WfJCoxcArkhslLN8dS/4LVguwrw8x3eFk=",
   "Source": "CRUDMVC_JS",
   "BasePath": "_content/CRUDMVC_JS",
   "Mode": "Default",
@@ -115,8 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "5xbj5eg67f",
-      "Integrity": "559jjXd1aWaN3kyrAmSDZER+KzMsw1v6rPC2ZLeCaq8=",
+      "Fingerprint": "yrwsjpmmbx",
+      "Integrity": "EpSmkVCKRryv83wJpMIPFSfmqgObLJwDpwUpQqJUsQs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\Producto\\producto.js"
@@ -1670,51 +1670,6 @@
       ]
     },
     {
-      "Route": "js/Producto/producto.5xbj5eg67f.js",
-      "AssetFile": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Diseño Web\\CRUDMVC_JS\\CRUDMVC_JS\\wwwroot\\js\\Producto\\producto.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1093"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"559jjXd1aWaN3kyrAmSDZER+KzMsw1v6rPC2ZLeCaq8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 03:24:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "5xbj5eg67f"
-        },
-        {
-          "Name": "label",
-          "Value": "js/Producto/producto.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-559jjXd1aWaN3kyrAmSDZER+KzMsw1v6rPC2ZLeCaq8="
-        }
-      ]
-    },
-    {
       "Route": "js/Producto/producto.js",
       "AssetFile": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Diseño Web\\CRUDMVC_JS\\CRUDMVC_JS\\wwwroot\\js\\Producto\\producto.js",
       "Selectors": [],
@@ -1725,7 +1680,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1093"
+          "Value": "3865"
         },
         {
           "Name": "Content-Type",
@@ -1733,11 +1688,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"559jjXd1aWaN3kyrAmSDZER+KzMsw1v6rPC2ZLeCaq8=\""
+          "Value": "\"EpSmkVCKRryv83wJpMIPFSfmqgObLJwDpwUpQqJUsQs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 03:24:44 GMT"
+          "Value": "Tue, 08 Apr 2025 00:33:01 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1747,7 +1702,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-559jjXd1aWaN3kyrAmSDZER+KzMsw1v6rPC2ZLeCaq8="
+          "Value": "sha256-EpSmkVCKRryv83wJpMIPFSfmqgObLJwDpwUpQqJUsQs="
+        }
+      ]
+    },
+    {
+      "Route": "js/Producto/producto.yrwsjpmmbx.js",
+      "AssetFile": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Diseño Web\\CRUDMVC_JS\\CRUDMVC_JS\\wwwroot\\js\\Producto\\producto.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3865"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EpSmkVCKRryv83wJpMIPFSfmqgObLJwDpwUpQqJUsQs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Apr 2025 00:33:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yrwsjpmmbx"
+        },
+        {
+          "Name": "label",
+          "Value": "js/Producto/producto.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EpSmkVCKRryv83wJpMIPFSfmqgObLJwDpwUpQqJUsQs="
         }
       ]
     },
