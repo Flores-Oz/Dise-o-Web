@@ -1,0 +1,68 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container bg-secondary p-2">
+    <div class="row">
+        <h1 class=" mb-2">Ingreso de Clientes</h1>
+        <div class=" col-12 mb-2">
+            <input class="form-control" id="idCodigo" placeholder="Codigo" />
+        </div>
+        <div class=" col-12 mb-2">
+            <input class="form-control" id="idDPI" placeholder="DPI" />
+        </div>
+        <div class=" col-3 mb-2">
+            <input class="form-control" id="idNombre" placeholder="Nombre" />
+        </div>
+        <div class=" col-3 mb-2">
+            <input class="form-control" id="idApellido" placeholder="Apellido" />
+        </div>
+        <div class=" col-3 mb-2">
+            <input type="date" class="form-control" id="idFecha" />
+        </div>
+        <div class=" col-3 mb-2">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="idEstado" />
+                <label class="form-check-label" for="idEstado">
+                    Activo
+                </label>
+            </div>
+        </div>
+        <div class=" col-6">
+            <select id="selectDepa" class="form-select mb-2"></select>
+        </div>
+        <div class=" col-6">
+            <select id="selectMuni" class="form-select mb-2"></select>
+        </div>
+        <div class=" col-12">
+            <button class="btn btn-success" id="btnAgregar">Agregar</button>
+            <button class="btn btn-warning" id="btnEditar">Editar</button>
+        </div>
+
+        <div class="col-12 mb-5">
+            <table class="table ">
+                <thead>
+                    <tr>
+                        <th>Codigo</th>
+                        <th>DPI</th>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>Fecha</th>
+                        <th>Estado</th>
+                        <th>Municipio</th>
+                        <th>Departamento</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody id="tableClientes">
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="~/js/paciente/paciente.js"></script>
+
+

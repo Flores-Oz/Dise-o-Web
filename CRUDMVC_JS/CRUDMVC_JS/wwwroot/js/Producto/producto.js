@@ -102,6 +102,8 @@ tbproducto.addEventListener('click', async e =>
 
 document.addEventListener("DOMContentLoaded", () => {
     fetchGetMarca()
+    fetchGetModelo()
+    fetchPostProducto()
 })
 
 selectMarca.addEventListener('change', () => {

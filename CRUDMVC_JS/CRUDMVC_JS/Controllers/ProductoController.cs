@@ -78,7 +78,7 @@ namespace CRUDMVC_JS.Controllers
             }
             catch(Exception ex)
             {
-                respuesta.Data= false,
+                respuesta.Data = false;
                 respuesta.message = "Hubo un Error";
             }
             return Ok(true);

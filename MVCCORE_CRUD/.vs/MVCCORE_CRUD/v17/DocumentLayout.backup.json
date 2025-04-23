@@ -1,29 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Oscar\\OneDrive\\Documentos\\Dise-o-Web\\MVCCORE_CRUD\\",
+  "WorkspaceRootPath": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\MVCCORE_CRUD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7BFCFA0D-D899-471E-98FD-E66C143C5140}|MVCCORE_CRUD\\MVCCORE_CRUD.csproj|c:\\users\\oscar\\onedrive\\documentos\\dise-o-web\\mvccore_crud\\mvccore_crud\\wwwroot\\js\\cliente\\cliente.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{7BFCFA0D-D899-471E-98FD-E66C143C5140}|MVCCORE_CRUD\\MVCCORE_CRUD.csproj|c:\\users\\ozzca\\onedrive\\documentos\\dise\u00F1o web\\mvccore_crud\\mvccore_crud\\wwwroot\\js\\cliente\\cliente.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{7BFCFA0D-D899-471E-98FD-E66C143C5140}|MVCCORE_CRUD\\MVCCORE_CRUD.csproj|solutionrelative:mvccore_crud\\wwwroot\\js\\cliente\\cliente.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BFCFA0D-D899-471E-98FD-E66C143C5140}|MVCCORE_CRUD\\MVCCORE_CRUD.csproj|c:\\users\\oscar\\onedrive\\documentos\\dise-o-web\\mvccore_crud\\mvccore_crud\\wwwroot\\js\\producto\\producto.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{7BFCFA0D-D899-471E-98FD-E66C143C5140}|MVCCORE_CRUD\\MVCCORE_CRUD.csproj|c:\\users\\ozzca\\onedrive\\documentos\\dise\u00F1o web\\mvccore_crud\\mvccore_crud\\wwwroot\\js\\producto\\producto.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{7BFCFA0D-D899-471E-98FD-E66C143C5140}|MVCCORE_CRUD\\MVCCORE_CRUD.csproj|solutionrelative:mvccore_crud\\wwwroot\\js\\producto\\producto.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BFCFA0D-D899-471E-98FD-E66C143C5140}|MVCCORE_CRUD\\MVCCORE_CRUD.csproj|c:\\users\\oscar\\onedrive\\documentos\\dise-o-web\\mvccore_crud\\mvccore_crud\\data\\createmodels\\clientemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7BFCFA0D-D899-471E-98FD-E66C143C5140}|MVCCORE_CRUD\\MVCCORE_CRUD.csproj|c:\\users\\ozzca\\onedrive\\documentos\\dise\u00F1o web\\mvccore_crud\\mvccore_crud\\data\\createmodels\\clientemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7BFCFA0D-D899-471E-98FD-E66C143C5140}|MVCCORE_CRUD\\MVCCORE_CRUD.csproj|solutionrelative:mvccore_crud\\data\\createmodels\\clientemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BFCFA0D-D899-471E-98FD-E66C143C5140}|MVCCORE_CRUD\\MVCCORE_CRUD.csproj|c:\\users\\oscar\\onedrive\\documentos\\dise-o-web\\mvccore_crud\\mvccore_crud\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7BFCFA0D-D899-471E-98FD-E66C143C5140}|MVCCORE_CRUD\\MVCCORE_CRUD.csproj|c:\\users\\ozzca\\onedrive\\documentos\\dise\u00F1o web\\mvccore_crud\\mvccore_crud\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7BFCFA0D-D899-471E-98FD-E66C143C5140}|MVCCORE_CRUD\\MVCCORE_CRUD.csproj|solutionrelative:mvccore_crud\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BFCFA0D-D899-471E-98FD-E66C143C5140}|MVCCORE_CRUD\\MVCCORE_CRUD.csproj|c:\\users\\oscar\\onedrive\\documentos\\dise-o-web\\mvccore_crud\\mvccore_crud\\views\\cliente\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7BFCFA0D-D899-471E-98FD-E66C143C5140}|MVCCORE_CRUD\\MVCCORE_CRUD.csproj|c:\\users\\ozzca\\onedrive\\documentos\\dise\u00F1o web\\mvccore_crud\\mvccore_crud\\views\\cliente\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7BFCFA0D-D899-471E-98FD-E66C143C5140}|MVCCORE_CRUD\\MVCCORE_CRUD.csproj|solutionrelative:mvccore_crud\\views\\cliente\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7BFCFA0D-D899-471E-98FD-E66C143C5140}|MVCCORE_CRUD\\MVCCORE_CRUD.csproj|c:\\users\\oscar\\onedrive\\documentos\\dise-o-web\\mvccore_crud\\mvccore_crud\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7BFCFA0D-D899-471E-98FD-E66C143C5140}|MVCCORE_CRUD\\MVCCORE_CRUD.csproj|c:\\users\\ozzca\\onedrive\\documentos\\dise\u00F1o web\\mvccore_crud\\mvccore_crud\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7BFCFA0D-D899-471E-98FD-E66C143C5140}|MVCCORE_CRUD\\MVCCORE_CRUD.csproj|solutionrelative:mvccore_crud\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -48,9 +48,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "cliente.js",
-              "DocumentMoniker": "C:\\Users\\Oscar\\OneDrive\\Documentos\\Dise-o-Web\\MVCCORE_CRUD\\MVCCORE_CRUD\\wwwroot\\js\\Cliente\\cliente.js",
+              "DocumentMoniker": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\MVCCORE_CRUD\\MVCCORE_CRUD\\wwwroot\\js\\Cliente\\cliente.js",
               "RelativeDocumentMoniker": "MVCCORE_CRUD\\wwwroot\\js\\Cliente\\cliente.js",
-              "ToolTip": "C:\\Users\\Oscar\\OneDrive\\Documentos\\Dise-o-Web\\MVCCORE_CRUD\\MVCCORE_CRUD\\wwwroot\\js\\Cliente\\cliente.js",
+              "ToolTip": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\MVCCORE_CRUD\\MVCCORE_CRUD\\wwwroot\\js\\Cliente\\cliente.js",
               "RelativeToolTip": "MVCCORE_CRUD\\wwwroot\\js\\Cliente\\cliente.js",
               "ViewState": "AgIAAEsAAAAAAAAAAAAAAHQAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
@@ -61,66 +61,61 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "ClienteModel.cs",
-              "DocumentMoniker": "C:\\Users\\Oscar\\OneDrive\\Documentos\\Dise-o-Web\\MVCCORE_CRUD\\MVCCORE_CRUD\\Data\\CreateModels\\ClienteModel.cs",
+              "DocumentMoniker": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\MVCCORE_CRUD\\MVCCORE_CRUD\\Data\\CreateModels\\ClienteModel.cs",
               "RelativeDocumentMoniker": "MVCCORE_CRUD\\Data\\CreateModels\\ClienteModel.cs",
-              "ToolTip": "C:\\Users\\Oscar\\OneDrive\\Documentos\\Dise-o-Web\\MVCCORE_CRUD\\MVCCORE_CRUD\\Data\\CreateModels\\ClienteModel.cs",
+              "ToolTip": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\MVCCORE_CRUD\\MVCCORE_CRUD\\Data\\CreateModels\\ClienteModel.cs",
               "RelativeToolTip": "MVCCORE_CRUD\\Data\\CreateModels\\ClienteModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T00:21:52.661Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T00:21:52.661Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Oscar\\OneDrive\\Documentos\\Dise-o-Web\\MVCCORE_CRUD\\MVCCORE_CRUD\\Views\\Cliente\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\MVCCORE_CRUD\\MVCCORE_CRUD\\Views\\Cliente\\Index.cshtml",
               "RelativeDocumentMoniker": "MVCCORE_CRUD\\Views\\Cliente\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Oscar\\OneDrive\\Documentos\\Dise-o-Web\\MVCCORE_CRUD\\MVCCORE_CRUD\\Views\\Cliente\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\MVCCORE_CRUD\\MVCCORE_CRUD\\Views\\Cliente\\Index.cshtml",
               "RelativeToolTip": "MVCCORE_CRUD\\Views\\Cliente\\Index.cshtml",
               "ViewState": "AgIAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-23T00:19:46.112Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T00:19:46.112Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "ProductoController.cs",
-              "DocumentMoniker": "C:\\Users\\Oscar\\OneDrive\\Documentos\\Dise-o-Web\\MVCCORE_CRUD\\MVCCORE_CRUD\\Controllers\\ProductoController.cs",
+              "DocumentMoniker": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\MVCCORE_CRUD\\MVCCORE_CRUD\\Controllers\\ProductoController.cs",
               "RelativeDocumentMoniker": "MVCCORE_CRUD\\Controllers\\ProductoController.cs",
-              "ToolTip": "C:\\Users\\Oscar\\OneDrive\\Documentos\\Dise-o-Web\\MVCCORE_CRUD\\MVCCORE_CRUD\\Controllers\\ProductoController.cs",
+              "ToolTip": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\MVCCORE_CRUD\\MVCCORE_CRUD\\Controllers\\ProductoController.cs",
               "RelativeToolTip": "MVCCORE_CRUD\\Controllers\\ProductoController.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAA5wCQAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T00:11:28.058Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T00:11:28.058Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "ClienteController.cs",
-              "DocumentMoniker": "C:\\Users\\Oscar\\OneDrive\\Documentos\\Dise-o-Web\\MVCCORE_CRUD\\MVCCORE_CRUD\\Controllers\\ClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\MVCCORE_CRUD\\MVCCORE_CRUD\\Controllers\\ClienteController.cs",
               "RelativeDocumentMoniker": "MVCCORE_CRUD\\Controllers\\ClienteController.cs",
-              "ToolTip": "C:\\Users\\Oscar\\OneDrive\\Documentos\\Dise-o-Web\\MVCCORE_CRUD\\MVCCORE_CRUD\\Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\MVCCORE_CRUD\\MVCCORE_CRUD\\Controllers\\ClienteController.cs",
               "RelativeToolTip": "MVCCORE_CRUD\\Controllers\\ClienteController.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAkwDkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T23:46:12.752Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-22T23:46:12.752Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "producto.js",
-              "DocumentMoniker": "C:\\Users\\Oscar\\OneDrive\\Documentos\\Dise-o-Web\\MVCCORE_CRUD\\MVCCORE_CRUD\\wwwroot\\js\\Producto\\producto.js",
+              "DocumentMoniker": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\MVCCORE_CRUD\\MVCCORE_CRUD\\wwwroot\\js\\Producto\\producto.js",
               "RelativeDocumentMoniker": "MVCCORE_CRUD\\wwwroot\\js\\Producto\\producto.js",
-              "ToolTip": "C:\\Users\\Oscar\\OneDrive\\Documentos\\Dise-o-Web\\MVCCORE_CRUD\\MVCCORE_CRUD\\wwwroot\\js\\Producto\\producto.js",
+              "ToolTip": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Dise\u00F1o Web\\MVCCORE_CRUD\\MVCCORE_CRUD\\wwwroot\\js\\Producto\\producto.js",
               "RelativeToolTip": "MVCCORE_CRUD\\wwwroot\\js\\Producto\\producto.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-04-22T22:30:23.055Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-22T22:30:23.055Z"
             }
           ]
         },
