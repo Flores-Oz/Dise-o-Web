@@ -166,6 +166,7 @@ selectmarca.addEventListener('change', () => {
     fetchGetModelo(valormarca);
 })
 
+//Eventos de Botones
 tableProductos.addEventListener('click', async e=>   {
     const btneditar = e.target.closest('.btneditar')
     const btneliminar = e.target.closest('.btneliminar')
