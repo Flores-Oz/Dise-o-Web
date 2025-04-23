@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\MVCCORE_CRUD.props" />
+</Project>

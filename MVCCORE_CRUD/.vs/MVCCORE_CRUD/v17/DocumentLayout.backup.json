@@ -1,0 +1,157 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Oscar\\OneDrive\\Documentos\\Dise-o-Web\\MVCCORE_CRUD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFCFA0D-D899-471E-98FD-E66C143C5140}|MVCCORE_CRUD\\MVCCORE_CRUD.csproj|c:\\users\\oscar\\onedrive\\documentos\\dise-o-web\\mvccore_crud\\mvccore_crud\\views\\cliente\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7BFCFA0D-D899-471E-98FD-E66C143C5140}|MVCCORE_CRUD\\MVCCORE_CRUD.csproj|solutionrelative:mvccore_crud\\views\\cliente\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFCFA0D-D899-471E-98FD-E66C143C5140}|MVCCORE_CRUD\\MVCCORE_CRUD.csproj|c:\\users\\oscar\\onedrive\\documentos\\dise-o-web\\mvccore_crud\\mvccore_crud\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFCFA0D-D899-471E-98FD-E66C143C5140}|MVCCORE_CRUD\\MVCCORE_CRUD.csproj|solutionrelative:mvccore_crud\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFCFA0D-D899-471E-98FD-E66C143C5140}|MVCCORE_CRUD\\MVCCORE_CRUD.csproj|c:\\users\\oscar\\onedrive\\documentos\\dise-o-web\\mvccore_crud\\mvccore_crud\\views\\producto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7BFCFA0D-D899-471E-98FD-E66C143C5140}|MVCCORE_CRUD\\MVCCORE_CRUD.csproj|solutionrelative:mvccore_crud\\views\\producto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFCFA0D-D899-471E-98FD-E66C143C5140}|MVCCORE_CRUD\\MVCCORE_CRUD.csproj|c:\\users\\oscar\\onedrive\\documentos\\dise-o-web\\mvccore_crud\\mvccore_crud\\wwwroot\\js\\producto\\producto.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{7BFCFA0D-D899-471E-98FD-E66C143C5140}|MVCCORE_CRUD\\MVCCORE_CRUD.csproj|solutionrelative:mvccore_crud\\wwwroot\\js\\producto\\producto.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFCFA0D-D899-471E-98FD-E66C143C5140}|MVCCORE_CRUD\\MVCCORE_CRUD.csproj|c:\\users\\oscar\\onedrive\\documentos\\dise-o-web\\mvccore_crud\\mvccore_crud\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7BFCFA0D-D899-471E-98FD-E66C143C5140}|MVCCORE_CRUD\\MVCCORE_CRUD.csproj|solutionrelative:mvccore_crud\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFCFA0D-D899-471E-98FD-E66C143C5140}|MVCCORE_CRUD\\MVCCORE_CRUD.csproj|c:\\users\\oscar\\onedrive\\documentos\\dise-o-web\\mvccore_crud\\mvccore_crud\\data\\createmodels\\productomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFCFA0D-D899-471E-98FD-E66C143C5140}|MVCCORE_CRUD\\MVCCORE_CRUD.csproj|solutionrelative:mvccore_crud\\data\\createmodels\\productomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BFCFA0D-D899-471E-98FD-E66C143C5140}|MVCCORE_CRUD\\MVCCORE_CRUD.csproj|c:\\users\\oscar\\onedrive\\documentos\\dise-o-web\\mvccore_crud\\mvccore_crud\\data\\dtomodel\\responsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BFCFA0D-D899-471E-98FD-E66C143C5140}|MVCCORE_CRUD\\MVCCORE_CRUD.csproj|solutionrelative:mvccore_crud\\data\\dtomodel\\responsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Oscar\\OneDrive\\Documentos\\Dise-o-Web\\MVCCORE_CRUD\\MVCCORE_CRUD\\Views\\Cliente\\Index.cshtml",
+              "RelativeDocumentMoniker": "MVCCORE_CRUD\\Views\\Cliente\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Oscar\\OneDrive\\Documentos\\Dise-o-Web\\MVCCORE_CRUD\\MVCCORE_CRUD\\Views\\Cliente\\Index.cshtml",
+              "RelativeToolTip": "MVCCORE_CRUD\\Views\\Cliente\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-22T23:46:51.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\Oscar\\OneDrive\\Documentos\\Dise-o-Web\\MVCCORE_CRUD\\MVCCORE_CRUD\\Controllers\\ClienteController.cs",
+              "RelativeDocumentMoniker": "MVCCORE_CRUD\\Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\Users\\Oscar\\OneDrive\\Documentos\\Dise-o-Web\\MVCCORE_CRUD\\MVCCORE_CRUD\\Controllers\\ClienteController.cs",
+              "RelativeToolTip": "MVCCORE_CRUD\\Controllers\\ClienteController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T23:46:12.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "producto.js",
+              "DocumentMoniker": "C:\\Users\\Oscar\\OneDrive\\Documentos\\Dise-o-Web\\MVCCORE_CRUD\\MVCCORE_CRUD\\wwwroot\\js\\Producto\\producto.js",
+              "RelativeDocumentMoniker": "MVCCORE_CRUD\\wwwroot\\js\\Producto\\producto.js",
+              "ToolTip": "C:\\Users\\Oscar\\OneDrive\\Documentos\\Dise-o-Web\\MVCCORE_CRUD\\MVCCORE_CRUD\\wwwroot\\js\\Producto\\producto.js",
+              "RelativeToolTip": "MVCCORE_CRUD\\wwwroot\\js\\Producto\\producto.js",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-04-22T22:30:23.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Oscar\\OneDrive\\Documentos\\Dise-o-Web\\MVCCORE_CRUD\\MVCCORE_CRUD\\Views\\Producto\\Index.cshtml",
+              "RelativeDocumentMoniker": "MVCCORE_CRUD\\Views\\Producto\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Oscar\\OneDrive\\Documentos\\Dise-o-Web\\MVCCORE_CRUD\\MVCCORE_CRUD\\Views\\Producto\\Index.cshtml",
+              "RelativeToolTip": "MVCCORE_CRUD\\Views\\Producto\\Index.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADcAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-22T22:00:11.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ResponseModel.cs",
+              "DocumentMoniker": "C:\\Users\\Oscar\\OneDrive\\Documentos\\Dise-o-Web\\MVCCORE_CRUD\\MVCCORE_CRUD\\Data\\DtoModel\\ResponseModel.cs",
+              "RelativeDocumentMoniker": "MVCCORE_CRUD\\Data\\DtoModel\\ResponseModel.cs",
+              "ToolTip": "C:\\Users\\Oscar\\OneDrive\\Documentos\\Dise-o-Web\\MVCCORE_CRUD\\MVCCORE_CRUD\\Data\\DtoModel\\ResponseModel.cs",
+              "RelativeToolTip": "MVCCORE_CRUD\\Data\\DtoModel\\ResponseModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T21:53:11.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductoModel.cs",
+              "DocumentMoniker": "C:\\Users\\Oscar\\OneDrive\\Documentos\\Dise-o-Web\\MVCCORE_CRUD\\MVCCORE_CRUD\\Data\\CreateModels\\ProductoModel.cs",
+              "RelativeDocumentMoniker": "MVCCORE_CRUD\\Data\\CreateModels\\ProductoModel.cs",
+              "ToolTip": "C:\\Users\\Oscar\\OneDrive\\Documentos\\Dise-o-Web\\MVCCORE_CRUD\\MVCCORE_CRUD\\Data\\CreateModels\\ProductoModel.cs",
+              "RelativeToolTip": "MVCCORE_CRUD\\Data\\CreateModels\\ProductoModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T21:52:24.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Oscar\\OneDrive\\Documentos\\Dise-o-Web\\MVCCORE_CRUD\\MVCCORE_CRUD\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MVCCORE_CRUD\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Oscar\\OneDrive\\Documentos\\Dise-o-Web\\MVCCORE_CRUD\\MVCCORE_CRUD\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MVCCORE_CRUD\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAB5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-20T18:39:32.438Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 723,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

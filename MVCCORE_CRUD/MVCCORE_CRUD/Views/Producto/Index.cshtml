@@ -1,0 +1,57 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container bg-secondary p-2">
+    <div class="row">
+        <h1 class=" mb-2">Ingreso de Producto</h1>
+        <div class=" col-12 mb-2">
+            <input class="form-control" id="incodigo" placeholder="Codigo" />
+        </div>
+        <div class=" col-3 mb-2">
+            <input class="form-control" id="innombre" placeholder="Nombre" />
+        </div>
+        <div class=" col-3 mb-2">
+            <input class="form-control" id="inprecioc" placeholder="Precio Costo" />
+        </div>
+        <div class=" col-3 mb-2">
+            <input class="form-control" id="inpreciov" placeholder="Precio Venta" />
+        </div>
+        <div class=" col-3">
+            <input class="form-control" id="inexistencia" placeholder="Existencia" />
+        </div>
+        <div class=" col-6">
+            <select id="selectmarca" class="form-select mb-2"></select>
+        </div>
+        <div class=" col-6">
+            <select id="selectmodelo" class="form-select mb-2"></select>
+        </div>
+        <div class=" col-12">
+            <button class="btn btn-success" id="btnAgregar">Agregar</button>
+            <button class="btn btn-warning" id="btnEditar">Editar</button>
+        </div>
+
+        <div class="col-12 mb-5">
+            <table class="table ">
+                <thead>
+                    <tr>
+                        <th>Codigo</th>
+                        <th>Nombre</th>
+                        <th>Marca</th>
+                        <th>Precio Costo</th>
+                        <th>Precio Venta</th>
+                        <th>Existencia</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody id="tableProductos">
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="~/js/producto/producto.js"></script>
+
