@@ -16,124 +16,155 @@ namespace Parcial2.Controllers
             return View();
         }
         [HttpGet]
-        public async Task<IActionResult> getDepartamentos(int idDepa)
+        public async Task<IActionResult> GetDepartamentos()
         {
-            var Depa = await _context.Departamentos.Select(mr => new SelectListItem
+            var depas = await _context.Departamentos.Select(d => new SelectListItem
             {
-                Text = mr.NombreDepartamento,
-                Value = mr.CodigoDepartamento.ToString()
+                Text = d.NombreDepartamento,
+                Value = d.CodigoDepartamento.ToString()
             }).ToListAsync();
-            return Ok(Depa);
+            return Ok(depas);
         }
-        public async Task<IActionResult> getMunicipio(int idDepa)
-        {
-            var municipios = await _context.Municipios.Where(md => md.CodigoDepartamento == idDepa).Select(md => new SelectListItem
-            {
-                Value = md.CodigoMunicipio.ToString(),
-                Text = md.NombreMunicipio.ToString()
-            }).ToListAsync();
 
+        [HttpGet]
+        public async Task<IActionResult> GetMunicipio(int idDepa)
+        {
+            var municipios = await _context.Municipios
+                .Where(m => m.CodigoDepartamento == idDepa)
+                .Select(m => new SelectListItem
+                {
+                    Text = m.NombreMunicipio,
+                    Value = m.CodigoMunicipio.ToString()
+                }).ToListAsync();
             return Ok(municipios);
         }
-        public async Task<IActionResult> getClientes()
-        {
-            var pacientes = await _context.Pacientes.Select(pr => new PacienteModel
-            {
-                CodigoPaciente = pr.CodigoPaciente,
-                DpiPaciente = pr.DpiPaciente,
-                NombrePaciente = pr.NombrePaciente,
-                ApellidoPaciente = pr.ApellidoPaciente,
-                FechaNac = pr.FechaNac,
-                EstadoPaciente = pr.EstadoPaciente,
-                Municipio = pr.CodigoMunicipioNavigation.NombreMunicipio,
-                Departamento = pr.CodigoMunicipioNavigation.CodigoDepartamentoNavigation.NombreDepartamento
 
-            }).ToListAsync();
+        [HttpGet]
+        public async Task<IActionResult> GetClientes()
+        {
+            var pacientes = await _context.Pacientes
+                .Include(p => p.CodigoMunicipioNavigation)
+                .ThenInclude(m => m.CodigoDepartamentoNavigation)
+                .Select(p => new PacienteModel
+                {
+                    CodigoPaciente = p.CodigoPaciente,
+                    DpiPaciente = p.DpiPaciente,
+                    NombrePaciente = p.NombrePaciente,
+                    ApellidoPaciente = p.ApellidoPaciente,
+                    FechaNac = p.FechaNac,
+                    EstadoPaciente = p.EstadoPaciente,
+                    Municipio = p.CodigoMunicipioNavigation.NombreMunicipio,
+                    Departamento = p.CodigoMunicipioNavigation.CodigoDepartamentoNavigation.NombreDepartamento,
+                    CodigoMunicipio = p.CodigoMunicipio,
+                    CodigoDepartamento = p.CodigoMunicipioNavigation.CodigoDepartamento
+                }).ToListAsync();
 
             return Ok(pacientes);
         }
 
-        public async Task<IActionResult> deletePaciente(int codigoPaciente)
+        [HttpDelete]
+        public async Task<IActionResult> DeletePaciente(int codigoPaciente)
         {
             var respuesta = new ResponseModel<bool>();
             try
             {
-                var paciente = await _context.Pacientes.Where(pr => pr.CodigoPaciente == codigoPaciente).FirstOrDefaultAsync();
+                var paciente = await _context.Pacientes.FindAsync(codigoPaciente);
                 if (paciente != null)
                 {
                     _context.Pacientes.Remove(paciente);
                     await _context.SaveChangesAsync();
-                    respuesta.message = "Se elimino el Paciente";
                     respuesta.Data = true;
+                    respuesta.message = "Se eliminó el paciente correctamente.";
+                }
+                else
+                {
+                    respuesta.Data = false;
+                    respuesta.message = "Paciente no encontrado.";
                 }
             }
             catch (Exception ex)
             {
-                respuesta.message = "Ocurrio un error";
                 respuesta.Data = false;
+                respuesta.message = $"Error: {ex.InnerException?.Message ?? ex.Message}";
+
             }
+
             return Ok(respuesta);
         }
 
         [HttpPost]
-        public async Task<IActionResult> postProducto([FromBody] PacienteModel datos)
+        public async Task<IActionResult> PostPaciente([FromBody] PacienteModel datos)
         {
             var respuesta = new ResponseModel<bool>();
             try
             {
-                Paciente nuevop = new Paciente
+               
+                var existe = await _context.Pacientes.AnyAsync(p => p.CodigoPaciente == datos.CodigoPaciente);
+                if (existe)
                 {
-                    CodigoPaciente = datos.CodigoPaciente,
-                    DpiPaciente  = datos.DpiPaciente,
+                    respuesta.Data = false;
+                    respuesta.message = "Ya existe un paciente con ese código.";
+                    return Ok(respuesta);
+                }
+
+                
+                var nuevo = new Paciente
+                {
+                    CodigoPaciente = datos.CodigoPaciente, 
+                    DpiPaciente = datos.DpiPaciente,
                     NombrePaciente = datos.NombrePaciente,
                     ApellidoPaciente = datos.ApellidoPaciente,
                     FechaNac = datos.FechaNac,
                     EstadoPaciente = datos.EstadoPaciente,
                     CodigoMunicipio = datos.CodigoMunicipio
                 };
-                _context.Pacientes.Add(nuevop);
+
+                _context.Pacientes.Add(nuevo);
                 await _context.SaveChangesAsync();
                 respuesta.Data = true;
-                respuesta.message = "Se ingreso Correctamente al Paciente";
+                respuesta.message = "Paciente agregado correctamente.";
             }
             catch (Exception ex)
             {
                 respuesta.Data = false;
-                respuesta.message = ex.Message.ToString();
-
+                respuesta.message = $"Error: {ex.Message}";
             }
-
-
             return Ok(respuesta);
         }
+
         [HttpPut]
-        public async Task<IActionResult> putProducto([FromBody] PacienteModel pacientedatos)
+        public async Task<IActionResult> PutPaciente([FromBody] PacienteModel datos)
         {
             var respuesta = new ResponseModel<bool>();
             try
             {
-                var paciente = await _context.Pacientes
-                    .Where(pr => pr.CodigoPaciente == pacientedatos.CodigoPaciente)
-                    .FirstOrDefaultAsync();
+                var paciente = await _context.Pacientes.FindAsync(datos.CodigoPaciente);
                 if (paciente != null)
                 {
-                    paciente.NombrePaciente = pacientedatos.NombrePaciente;
-                    paciente.ApellidoPaciente = pacientedatos.ApellidoPaciente;
-                    paciente.FechaNac = pacientedatos.FechaNac;
-                    paciente.EstadoPaciente = pacientedatos.EstadoPaciente;
-                    paciente.CodigoMunicipio = pacientedatos.CodigoMunicipio;
+                    paciente.DpiPaciente = datos.DpiPaciente;
+                    paciente.NombrePaciente = datos.NombrePaciente;
+                    paciente.ApellidoPaciente = datos.ApellidoPaciente;
+                    paciente.FechaNac = datos.FechaNac;
+                    paciente.EstadoPaciente = datos.EstadoPaciente;
+                    paciente.CodigoMunicipio = datos.CodigoMunicipio;
+
                     await _context.SaveChangesAsync();
-                    respuesta.message = "Se edito al Paciente";
                     respuesta.Data = true;
+                    respuesta.message = "Paciente editado correctamente.";
                 }
-
-
+                else
+                {
+                    respuesta.Data = false;
+                    respuesta.message = "Paciente no encontrado.";
+                }
             }
             catch (Exception ex)
             {
-                respuesta.message = ex.Message;
                 respuesta.Data = false;
+                respuesta.message = $"Error: {ex.InnerException?.Message ?? ex.Message}";
+                
             }
+
             return Ok(respuesta);
         }
     }

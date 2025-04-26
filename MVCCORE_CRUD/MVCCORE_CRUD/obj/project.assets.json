@@ -7082,26 +7082,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ozzca\\.nuget\\packages\\": {},
-    "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages": {},
+    "C:\\Users\\Oscar\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Diseño Web\\MVCCORE_CRUD\\MVCCORE_CRUD\\MVCCORE_CRUD.csproj",
+      "projectUniqueName": "C:\\Users\\Oscar\\OneDrive\\Documentos\\Dise-o-Web\\MVCCORE_CRUD\\MVCCORE_CRUD\\MVCCORE_CRUD.csproj",
       "projectName": "MVCCORE_CRUD",
-      "projectPath": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Diseño Web\\MVCCORE_CRUD\\MVCCORE_CRUD\\MVCCORE_CRUD.csproj",
-      "packagesPath": "C:\\Users\\Ozzca\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ozzca\\OneDrive\\Documentos\\Diseño Web\\MVCCORE_CRUD\\MVCCORE_CRUD\\obj\\",
+      "projectPath": "C:\\Users\\Oscar\\OneDrive\\Documentos\\Dise-o-Web\\MVCCORE_CRUD\\MVCCORE_CRUD\\MVCCORE_CRUD.csproj",
+      "packagesPath": "C:\\Users\\Oscar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Oscar\\OneDrive\\Documentos\\Dise-o-Web\\MVCCORE_CRUD\\MVCCORE_CRUD\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Ozzca\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
+        "C:\\Users\\Oscar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -7110,7 +7107,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
@@ -7178,7 +7174,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
