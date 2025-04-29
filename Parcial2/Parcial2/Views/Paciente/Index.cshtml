@@ -4,46 +4,77 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<<div class="container bg-secondary p-2">
-    <div class="row">
-        <h1 class="mb-2">Ingreso de Pacientes</h1>
-        <div class="col-12 mb-2">
-            <input class="form-control" id="idCodigo" placeholder="Codigo" />
-        </div>
-        <div class="col-12 mb-2">
-            <input class="form-control" id="idDPI" placeholder="DPI" />
-        </div>
-        <div class="col-3 mb-2">
-            <input class="form-control" id="idNombre" placeholder="Nombre" />
-        </div>
-        <div class="col-3 mb-2">
-            <input class="form-control" id="idApellido" placeholder="Apellido" />
-        </div>
-        <div class="col-3 mb-2">
-            <input type="date" class="form-control" id="idFecha" />
-        </div>
-        <div class="col-3 mb-2">
-            <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="idEstado" />
-                <label class="form-check-label" for="idEstado">Activo</label>
-            </div>
-        </div>
-        <div class="col-6">
-            <select id="selectDepa" class="form-select mb-2"></select>
-        </div>
-        <div class="col-6">
-            <select id="selectMuni" class="form-select mb-2"></select>
-        </div>
-        <div class="col-12">
-            <button class="btn btn-success" id="btnAgregar">Agregar</button>
-            <button class="btn btn-warning" id="btnEditar">Editar</button>
-        </div>
 
-        <div class="col-12 mt-3">
-            <table class="table table-light">
-                <thead>
+<<div class="container my-5">
+    <div class="card shadow-lg">
+        <div class="card-header bg-primary text-white">
+            <h3 class="mb-0">Gestión de Pacientes</h3>
+        </div>
+        <div class="card-body">
+            <div id="alertContainer"></div>
+
+            <form id="formPaciente">
+                <div class="row g-3">
+                    <div class="col-md-4">
+                        <label for="idCodigo" class="form-label">Código</label>
+                        <input class="form-control" id="idCodigo" placeholder="Código" />
+                        <div class="invalid-feedback">El Codigo es obligatorio.</div>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="idDPI" class="form-label">DPI</label>
+                        <input class="form-control" id="idDPI" placeholder="DPI" />
+                        <div class="invalid-feedback">El DPI es obligatorio.</div>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="idNombre" class="form-label">Nombre</label>
+                        <input class="form-control" id="idNombre" placeholder="Nombre" />
+                        <div class="invalid-feedback">El nombre es obligatorio.</div>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="idApellido" class="form-label">Apellido</label>
+                        <input class="form-control" id="idApellido" placeholder="Apellido" />
+                        <div class="invalid-feedback">El apellido es obligatorio.</div>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="idFecha" class="form-label">Fecha de Nacimiento</label>
+                        <input type="date" class="form-control" id="idFecha" />
+                        <div class="invalid-feedback">La fecha es obligatoria.</div>
+                    </div>
+                    <div class="col-md-4 d-flex align-items-end">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="idEstado" />
+                            <label class="form-check-label" for="idEstado">Activo</label>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="selectDepa" class="form-label">Departamento</label>
+                        <select id="selectDepa" class="form-select"></select>
+                        <div class="invalid-feedback">Seleccione un departamento.</div>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="selectMuni" class="form-label">Municipio</label>
+                        <select id="selectMuni" class="form-select"></select>
+                        <div class="invalid-feedback">Seleccione un municipio.</div>
+                    </div>
+                </div>
+
+                <div class="mt-4 text-end">
+                    <button type="button" class="btn btn-success me-2" id="btnAgregar">Agregar</button>
+                    <button type="button" class="btn btn-warning" id="btnEditar">Editar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="card mt-5 shadow">
+        <div class="card-header bg-dark text-white">
+            <h5 class="mb-0">Lista de Pacientes</h5>
+        </div>
+        <div class="card-body table-responsive">
+            <table class="table table-bordered table-hover table-striped align-middle">
+                <thead class="table-light text-center">
                     <tr>
-                        <th>Codigo</th>
+                        <th>Código</th>
                         <th>DPI</th>
                         <th>Nombre</th>
                         <th>Apellido</th>
@@ -54,7 +85,7 @@
                         <th>Acciones</th>
                     </tr>
                 </thead>
-                <tbody id="tableClientes"></tbody>
+                <tbody id="tableClientes" class="text-center"></tbody>
             </table>
         </div>
     </div>

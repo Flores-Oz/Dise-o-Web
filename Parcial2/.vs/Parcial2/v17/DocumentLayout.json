@@ -7,12 +7,16 @@
       "RelativeMoniker": "D:0:0:{ABD46799-2063-4C92-9B5B-6B8216D21A91}|Parcial2\\Parcial2.csproj|solutionrelative:parcial2\\wwwroot\\js\\paciente\\paciente.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{ABD46799-2063-4C92-9B5B-6B8216D21A91}|Parcial2\\Parcial2.csproj|c:\\users\\oscar\\onedrive\\documentos\\dise-o-web\\parcial2\\parcial2\\views\\paciente\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ABD46799-2063-4C92-9B5B-6B8216D21A91}|Parcial2\\Parcial2.csproj|solutionrelative:parcial2\\views\\paciente\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{ABD46799-2063-4C92-9B5B-6B8216D21A91}|Parcial2\\Parcial2.csproj|c:\\users\\oscar\\onedrive\\documentos\\dise-o-web\\parcial2\\parcial2\\controllers\\pacientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ABD46799-2063-4C92-9B5B-6B8216D21A91}|Parcial2\\Parcial2.csproj|solutionrelative:parcial2\\controllers\\pacientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ABD46799-2063-4C92-9B5B-6B8216D21A91}|Parcial2\\Parcial2.csproj|c:\\users\\oscar\\onedrive\\documentos\\dise-o-web\\parcial2\\parcial2\\views\\paciente\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ABD46799-2063-4C92-9B5B-6B8216D21A91}|Parcial2\\Parcial2.csproj|solutionrelative:parcial2\\views\\paciente\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{ABD46799-2063-4C92-9B5B-6B8216D21A91}|Parcial2\\Parcial2.csproj|c:\\users\\oscar\\onedrive\\documentos\\dise-o-web\\parcial2\\parcial2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ABD46799-2063-4C92-9B5B-6B8216D21A91}|Parcial2\\Parcial2.csproj|solutionrelative:parcial2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ABD46799-2063-4C92-9B5B-6B8216D21A91}|Parcial2\\Parcial2.csproj|c:\\users\\oscar\\onedrive\\documentos\\dise-o-web\\parcial2\\parcial2\\data\\createmodels\\pacientemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{ABD46799-2063-4C92-9B5B-6B8216D21A91}|Parcial2\\Parcial2.csproj|c:\\users\\oscar\\onedrive\\documentos\\dise-o-web\\parcial2\\parcial2\\data\\context\\bdcontextmvc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{ABD46799-2063-4C92-9B5B-6B8216D21A91}|Parcial2\\Parcial2.csproj|solutionrelative:parcial2\\data\\context\\bdcontextmvc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ABD46799-2063-4C92-9B5B-6B8216D21A91}|Parcial2\\Parcial2.csproj|c:\\users\\oscar\\onedrive\\documentos\\dise-o-web\\parcial2\\parcial2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ABD46799-2063-4C92-9B5B-6B8216D21A91}|Parcial2\\Parcial2.csproj|solutionrelative:parcial2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,20 +46,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Oscar\\OneDrive\\Documentos\\Dise-o-Web\\Parcial2\\Parcial2\\Views\\Paciente\\Index.cshtml",
               "RelativeDocumentMoniker": "Parcial2\\Views\\Paciente\\Index.cshtml",
               "ToolTip": "C:\\Users\\Oscar\\OneDrive\\Documentos\\Dise-o-Web\\Parcial2\\Parcial2\\Views\\Paciente\\Index.cshtml",
               "RelativeToolTip": "Parcial2\\Views\\Paciente\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABJAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAwwBMAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-23T02:27:29.017Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PacienteController.cs",
               "DocumentMoniker": "C:\\Users\\Oscar\\OneDrive\\Documentos\\Dise-o-Web\\Parcial2\\Parcial2\\Controllers\\PacienteController.cs",
               "RelativeDocumentMoniker": "Parcial2\\Controllers\\PacienteController.cs",
@@ -72,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "PacienteModel.cs",
               "DocumentMoniker": "C:\\Users\\Oscar\\OneDrive\\Documentos\\Dise-o-Web\\Parcial2\\Parcial2\\Data\\CreateModels\\PacienteModel.cs",
               "RelativeDocumentMoniker": "Parcial2\\Data\\CreateModels\\PacienteModel.cs",
@@ -80,8 +80,7 @@
               "RelativeToolTip": "Parcial2\\Data\\CreateModels\\PacienteModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T02:41:22.521Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T02:41:22.521Z"
             },
             {
               "$type": "Document",
@@ -91,26 +90,27 @@
               "RelativeDocumentMoniker": "Parcial2\\wwwroot\\js\\paciente\\paciente.js",
               "ToolTip": "C:\\Users\\Oscar\\OneDrive\\Documentos\\Dise-o-Web\\Parcial2\\Parcial2\\wwwroot\\js\\paciente\\paciente.js",
               "RelativeToolTip": "Parcial2\\wwwroot\\js\\paciente\\paciente.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJcAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-04-23T02:28:58.513Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Oscar\\OneDrive\\Documentos\\Dise-o-Web\\Parcial2\\Parcial2\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Parcial2\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\Oscar\\OneDrive\\Documentos\\Dise-o-Web\\Parcial2\\Parcial2\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Parcial2\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAABsAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAABsAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-23T02:25:02.825Z"
+              "WhenOpened": "2025-04-23T02:25:02.825Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "BDContextMVC.cs",
               "DocumentMoniker": "C:\\Users\\Oscar\\OneDrive\\Documentos\\Dise-o-Web\\Parcial2\\Parcial2\\Data\\Context\\BDContextMVC.cs",
               "RelativeDocumentMoniker": "Parcial2\\Data\\Context\\BDContextMVC.cs",

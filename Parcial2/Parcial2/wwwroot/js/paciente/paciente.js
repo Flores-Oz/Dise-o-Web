@@ -1,5 +1,4 @@
-﻿/// Declaración de variables
-const selectDepa = document.getElementById("selectDepa");
+﻿const selectDepa = document.getElementById("selectDepa");
 const selectMuni = document.getElementById("selectMuni");
 const tableClientes = document.getElementById("tableClientes");
 const btnAgregar = document.getElementById("btnAgregar");
@@ -7,7 +6,50 @@ const btnEditar = document.getElementById("btnEditar");
 const fragment = document.createDocumentFragment();
 let codigoPaciente = null;
 
-/// Funciones para cargar datos
+/// Función para mostrar alertas visuales
+const mostrarAlerta = (mensaje, tipo = "success") => {
+    const alerta = `
+        <div class="alert alert-${tipo} alert-dismissible fade show" role="alert">
+            ${mensaje}
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Cerrar"></button>
+        </div>
+    `;
+    document.getElementById("alertContainer").innerHTML = alerta;
+
+    setTimeout(() => {
+        const alert = document.querySelector('.alert');
+        if (alert) alert.remove();
+    }, 4000);
+};
+
+/// Validación 
+const validarFormulario = () => {
+    let valido = true;
+
+    const campos = [
+        { id: "idCodigo" },
+        { id: "idDPI" },
+        { id: "idNombre" },
+        { id: "idApellido" },
+        { id: "idFecha" },
+        { id: "selectDepa" },
+        { id: "selectMuni" }
+    ];
+
+    campos.forEach(campo => {
+        const input = document.getElementById(campo.id);
+        if (!input.value || input.value.trim() === "") {
+            input.classList.add("is-invalid");
+            valido = false;
+        } else {
+            input.classList.remove("is-invalid");
+        }
+    });
+
+    return valido;
+};
+
+/// CRUD y carga
 const cargarDepartamentos = async () => {
     const response = await fetch("/Paciente/GetDepartamentos");
     const data = await response.json();
@@ -79,19 +121,16 @@ const cargarPacientes = async () => {
     });
 };
 
-/// Funciones CRUD
-const obtenerDatosFormulario = () => {
-    return {
-        CodigoPaciente: parseInt(document.getElementById("idCodigo").value) || 0,
-        DpiPaciente: document.getElementById("idDPI").value,
-        NombrePaciente: document.getElementById("idNombre").value,
-        ApellidoPaciente: document.getElementById("idApellido").value,
-        FechaNac: document.getElementById("idFecha").value,
-        EstadoPaciente: document.getElementById("idEstado").checked,
-        CodigoMunicipio: parseInt(selectMuni.value),
-        CodigoDepartamento: parseInt(selectDepa.value)
-    };
-};
+const obtenerDatosFormulario = () => ({
+    CodigoPaciente: parseInt(document.getElementById("idCodigo").value) || 0,
+    DpiPaciente: document.getElementById("idDPI").value,
+    NombrePaciente: document.getElementById("idNombre").value,
+    ApellidoPaciente: document.getElementById("idApellido").value,
+    FechaNac: document.getElementById("idFecha").value,
+    EstadoPaciente: document.getElementById("idEstado").checked,
+    CodigoMunicipio: parseInt(selectMuni.value),
+    CodigoDepartamento: parseInt(selectDepa.value)
+});
 
 const limpiarFormulario = () => {
     document.getElementById("idCodigo").value = "";
@@ -102,6 +141,7 @@ const limpiarFormulario = () => {
     document.getElementById("idEstado").checked = false;
     selectDepa.selectedIndex = 0;
     cargarMunicipios(selectDepa.value);
+    document.querySelectorAll(".is-invalid").forEach(el => el.classList.remove("is-invalid"));
 };
 
 const cargarFormulario = (paciente) => {
@@ -124,7 +164,7 @@ const eliminarPaciente = async (id) => {
         method: "DELETE"
     });
     const json = await res.json();
-    alert(json.message);
+    mostrarAlerta(json.message, json.success ? "success" : "danger");
     cargarPacientes();
 };
 
@@ -139,6 +179,11 @@ selectDepa.addEventListener("change", () => {
 });
 
 btnAgregar.addEventListener("click", async () => {
+    if (!validarFormulario()) {
+        mostrarAlerta("Por favor complete todos los campos obligatorios.", "danger");
+        return;
+    }
+
     const datos = obtenerDatosFormulario();
     const res = await fetch("/Paciente/PostPaciente", {
         method: "POST",
@@ -146,12 +191,17 @@ btnAgregar.addEventListener("click", async () => {
         body: JSON.stringify(datos)
     });
     const json = await res.json();
-    alert(json.message);
+    mostrarAlerta(json.message, json.success ? "success" : "danger");
     cargarPacientes();
     limpiarFormulario();
 });
 
 btnEditar.addEventListener("click", async () => {
+    if (!validarFormulario()) {
+        mostrarAlerta("Por favor complete todos los campos obligatorios.", "danger");
+        return;
+    }
+
     const datos = obtenerDatosFormulario();
     const res = await fetch("/Paciente/PutPaciente", {
         method: "PUT",
@@ -159,7 +209,7 @@ btnEditar.addEventListener("click", async () => {
         body: JSON.stringify(datos)
     });
     const json = await res.json();
-    alert(json.message);
+    mostrarAlerta(json.message, json.success ? "success" : "danger");
     cargarPacientes();
     limpiarFormulario();
 });

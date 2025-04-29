@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gIWe7FL0dPy0OiHV13V+DXnW+MVbKefLMm7Qam2W4V0=",
+  "Hash": "Mg5Wwke5gek3KsevHyRePh6qEKji8kk3AbDBZKnWu8k=",
   "Source": "Parcial2",
   "BasePath": "_content/Parcial2",
   "Mode": "Default",
@@ -115,8 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "gtcsfyrzhx",
-      "Integrity": "HClzEq6Pvfmu+9e/0/C9RF4Y+egqurusX9Qsy9CGUFI=",
+      "Fingerprint": "h3axd7b3tz",
+      "Integrity": "XcoIapJpt74iKAMxQmMUIGFH9yvCOUyoWWqVK/eK1vk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\paciente\\paciente.js"
@@ -1506,7 +1506,7 @@
       ]
     },
     {
-      "Route": "js/paciente/paciente.gtcsfyrzhx.js",
+      "Route": "js/paciente/paciente.h3axd7b3tz.js",
       "AssetFile": "C:\\Users\\Oscar\\OneDrive\\Documentos\\Dise-o-Web\\Parcial2\\Parcial2\\wwwroot\\js\\paciente\\paciente.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1516,7 +1516,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6329"
+          "Value": "7935"
         },
         {
           "Name": "Content-Type",
@@ -1524,11 +1524,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"HClzEq6Pvfmu+9e/0/C9RF4Y+egqurusX9Qsy9CGUFI=\""
+          "Value": "\"XcoIapJpt74iKAMxQmMUIGFH9yvCOUyoWWqVK/eK1vk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 26 Apr 2025 05:15:53 GMT"
+          "Value": "Tue, 29 Apr 2025 21:36:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1538,7 +1538,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "gtcsfyrzhx"
+          "Value": "h3axd7b3tz"
         },
         {
           "Name": "label",
@@ -1546,7 +1546,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-HClzEq6Pvfmu+9e/0/C9RF4Y+egqurusX9Qsy9CGUFI="
+          "Value": "sha256-XcoIapJpt74iKAMxQmMUIGFH9yvCOUyoWWqVK/eK1vk="
         }
       ]
     },
@@ -1561,7 +1561,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6329"
+          "Value": "7935"
         },
         {
           "Name": "Content-Type",
@@ -1569,11 +1569,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"HClzEq6Pvfmu+9e/0/C9RF4Y+egqurusX9Qsy9CGUFI=\""
+          "Value": "\"XcoIapJpt74iKAMxQmMUIGFH9yvCOUyoWWqVK/eK1vk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 26 Apr 2025 05:15:53 GMT"
+          "Value": "Tue, 29 Apr 2025 21:36:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1583,7 +1583,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-HClzEq6Pvfmu+9e/0/C9RF4Y+egqurusX9Qsy9CGUFI="
+          "Value": "sha256-XcoIapJpt74iKAMxQmMUIGFH9yvCOUyoWWqVK/eK1vk="
         }
       ]
     },
