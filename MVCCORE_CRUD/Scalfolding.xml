@@ -1,3 +1,4 @@
-Scaffold-DbContext "Data Source=ServerVlay;Initial Catalog=Ejercicio1;User ID=sa;Password=ImpactRail123; TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Data/Models -ContextDir Data/Context -Context <<DbContext>> -Force 
+Scaffold-DbContext "Data Source=ServerVlay;Initial Catalog=BDHospital;User ID=sa;Password=GotchardFever456; TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Data/Models -ContextDir Data/Context -Context BDContextMVC -Force 
 
-Scaffold-DbContext "Data Source=ServerVlay;Initial Catalog=Ejercicio1;User ID=sa;Password=ImpactRail123;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Data/Models -ContextDir Data/Context -Context MVCContext -Force
+Scaffold-DbContext "Data Source=ALLEGRO\SQLEXPRESS;Initial Catalog=BDHospital;User ID=sa;Password=GotchardFever456;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Data/Models -ContextDir Data/Context -Context BDContextMVC -Force
+GotchardFever456

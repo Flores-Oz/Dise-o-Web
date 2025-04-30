@@ -26,10 +26,12 @@ public partial class BDContextMVC : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Data Source=GNARO\\SQLEXPRESS;Initial Catalog=BDHospital;User ID=sa;Password=ImpactRail123;TrustServerCertificate=True;");
+        => optionsBuilder.UseSqlServer("Data Source=ALLEGRO\\SQLEXPRESS;Initial Catalog=BDHospital;User ID=sa;Password=GotchardFever456;TrustServerCertificate=True;");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.UseCollation("Modern_Spanish_CI_AS");
+
         modelBuilder.Entity<Departamento>(entity =>
         {
             entity.HasKey(e => e.CodigoDepartamento);
