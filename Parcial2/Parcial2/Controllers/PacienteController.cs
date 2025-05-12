@@ -77,6 +77,7 @@ namespace Parcial2.Controllers
                     respuesta.message = "Se eliminó el paciente correctamente.";
                 }
                 else
+     
                 {
                     respuesta.Data = false;
                     respuesta.message = "Paciente no encontrado.";
