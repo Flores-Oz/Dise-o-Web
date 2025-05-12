@@ -1,0 +1,90 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<<div class="container my-5">
+    <div class="card shadow-lg">
+        <div class="card-header bg-primary text-white">
+            <h3 class="mb-0">Clientes</h3>
+        </div>
+        <div class="card-body">
+            <div id="alertContainer"></div>
+
+            <form id="formPaciente">
+                <div class="row g-3">
+                    <div class="col-md-4">
+                        <label for="idID" class="form-label">ID</label>
+                        <input class="form-control" id="idID" placeholder="ID" />
+                        <div class="invalid-feedback">El ID es obligatorio.</div>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="idNombre" class="form-label">Nombre</label>
+                        <input class="form-control" id="idNombre" placeholder="Nombres" />
+                        <div class="invalid-feedback">El Nombre es obligatorio.</div>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="idDireccion" class="form-label">Direccion</label>
+                        <input class="form-control" id="idDireccion" placeholder="Direccion" />
+                        <div class="invalid-feedback">La Direccion es obligatoria.</div>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="idTelefono" class="form-label">Telefono</label>
+                        <input class="form-control" id="idTelefono" placeholder="Telefono" />
+                        <div class="invalid-feedback">El Telefono es obligatorio.</div>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="idCorreo" class="form-label">Correo</label>
+                        <input class="form-control" id="idCorreo" placeholder="email@example.com" />
+                        <div class="invalid-feedback">El Correo es obligatorio.</div>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="selectDepa" class="form-label">Departamento</label>
+                        <select id="selectDepa" class="form-select"></select>
+                        <div class="invalid-feedback">Seleccione un departamento.</div>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="selectMuni" class="form-label">Municipio</label>
+                        <select id="selectMuni" class="form-select"></select>
+                        <div class="invalid-feedback">Seleccione un municipio.</div>
+                    </div>
+                </div>
+
+                <div class="mt-4 text-end">
+                    <button type="button" class="btn btn-success me-2" id="btnAgregar">Agregar</button>
+                    <button type="button" class="btn btn-warning" id="btnEditar">Editar</button>
+                    <button type="button" class="btn btn-info" id="btnImprimir">Imprimir</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="card mt-5 shadow">
+        <div class="card-header bg-dark text-white">
+            <h5 class="mb-0">Lista de Clientes</h5>
+        </div>
+        <div class="card-body table-responsive">
+            <table class="table table-bordered table-hover table-striped align-middle">
+                <thead class="table-light text-center">
+                    <tr>
+                        <th>ID</th>
+                        <th>Nombre</th>
+                        <th>Direccion</th>
+                        <th>Telefono</th>
+                        <th>Correo</th>
+                        <th>Municipio</th>
+                        <th>Departamento</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody id="tableClientes" class="text-center"></tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<script src="~/js/Cliente/Cliente.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.28/jspdf.plugin.autotable.min.js"></script>
+
+
