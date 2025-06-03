@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Oscar\\OneDrive\\Documentos\\Dise-o-Web\\PDFGenerator\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7D775785-ADD6-497B-88B1-E23C23D671D6}|PDFGenerator\\PDFGenerator.csproj|c:\\users\\oscar\\onedrive\\documentos\\dise-o-web\\pdfgenerator\\pdfgenerator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D775785-ADD6-497B-88B1-E23C23D671D6}|PDFGenerator\\PDFGenerator.csproj|solutionrelative:pdfgenerator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7D775785-ADD6-497B-88B1-E23C23D671D6}|PDFGenerator\\PDFGenerator.csproj|c:\\users\\oscar\\onedrive\\documentos\\dise-o-web\\pdfgenerator\\pdfgenerator\\wwwroot\\js\\factura\\factura.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{7D775785-ADD6-497B-88B1-E23C23D671D6}|PDFGenerator\\PDFGenerator.csproj|solutionrelative:pdfgenerator\\wwwroot\\js\\factura\\factura.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7D775785-ADD6-497B-88B1-E23C23D671D6}|PDFGenerator\\PDFGenerator.csproj|c:\\users\\oscar\\onedrive\\documentos\\dise-o-web\\pdfgenerator\\pdfgenerator\\data\\context\\pdfdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D775785-ADD6-497B-88B1-E23C23D671D6}|PDFGenerator\\PDFGenerator.csproj|solutionrelative:pdfgenerator\\data\\context\\pdfdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7D775785-ADD6-497B-88B1-E23C23D671D6}|PDFGenerator\\PDFGenerator.csproj|c:\\users\\oscar\\onedrive\\documentos\\dise-o-web\\pdfgenerator\\pdfgenerator\\views\\factura\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D775785-ADD6-497B-88B1-E23C23D671D6}|PDFGenerator\\PDFGenerator.csproj|solutionrelative:pdfgenerator\\views\\factura\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D775785-ADD6-497B-88B1-E23C23D671D6}|PDFGenerator\\PDFGenerator.csproj|c:\\users\\oscar\\onedrive\\documentos\\dise-o-web\\pdfgenerator\\pdfgenerator\\views\\pdf\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D775785-ADD6-497B-88B1-E23C23D671D6}|PDFGenerator\\PDFGenerator.csproj|solutionrelative:pdfgenerator\\views\\pdf\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D775785-ADD6-497B-88B1-E23C23D671D6}|PDFGenerator\\PDFGenerator.csproj|c:\\users\\oscar\\onedrive\\documentos\\dise-o-web\\pdfgenerator\\pdfgenerator\\data\\models\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D775785-ADD6-497B-88B1-E23C23D671D6}|PDFGenerator\\PDFGenerator.csproj|solutionrelative:pdfgenerator\\data\\models\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D775785-ADD6-497B-88B1-E23C23D671D6}|PDFGenerator\\PDFGenerator.csproj|c:\\users\\oscar\\onedrive\\documentos\\dise-o-web\\pdfgenerator\\pdfgenerator\\data\\models\\detallefactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D775785-ADD6-497B-88B1-E23C23D671D6}|PDFGenerator\\PDFGenerator.csproj|solutionrelative:pdfgenerator\\data\\models\\detallefactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7D775785-ADD6-497B-88B1-E23C23D671D6}|PDFGenerator\\PDFGenerator.csproj|c:\\users\\oscar\\onedrive\\documentos\\dise-o-web\\pdfgenerator\\pdfgenerator\\controllers\\pdfcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7D775785-ADD6-497B-88B1-E23C23D671D6}|PDFGenerator\\PDFGenerator.csproj|solutionrelative:pdfgenerator\\controllers\\pdfcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7D775785-ADD6-497B-88B1-E23C23D671D6}|PDFGenerator\\PDFGenerator.csproj|c:\\users\\oscar\\onedrive\\documentos\\dise-o-web\\pdfgenerator\\pdfgenerator\\views\\pdf\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7D775785-ADD6-497B-88B1-E23C23D671D6}|PDFGenerator\\PDFGenerator.csproj|solutionrelative:pdfgenerator\\views\\pdf\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7D775785-ADD6-497B-88B1-E23C23D671D6}|PDFGenerator\\PDFGenerator.csproj|c:\\users\\oscar\\onedrive\\documentos\\dise-o-web\\pdfgenerator\\pdfgenerator\\controllers\\facturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D775785-ADD6-497B-88B1-E23C23D671D6}|PDFGenerator\\PDFGenerator.csproj|solutionrelative:pdfgenerator\\controllers\\facturacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,51 +51,90 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Oscar\\OneDrive\\Documentos\\Dise-o-Web\\PDFGenerator\\PDFGenerator\\Program.cs",
-              "RelativeDocumentMoniker": "PDFGenerator\\Program.cs",
-              "ToolTip": "C:\\Users\\Oscar\\OneDrive\\Documentos\\Dise-o-Web\\PDFGenerator\\PDFGenerator\\Program.cs",
-              "RelativeToolTip": "PDFGenerator\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T08:51:40.321Z",
+              "Title": "Factura.js",
+              "DocumentMoniker": "C:\\Users\\Oscar\\OneDrive\\Documentos\\Dise-o-Web\\PDFGenerator\\PDFGenerator\\wwwroot\\js\\Factura\\Factura.js",
+              "RelativeDocumentMoniker": "PDFGenerator\\wwwroot\\js\\Factura\\Factura.js",
+              "ToolTip": "C:\\Users\\Oscar\\OneDrive\\Documentos\\Dise-o-Web\\PDFGenerator\\PDFGenerator\\wwwroot\\js\\Factura\\Factura.js",
+              "RelativeToolTip": "PDFGenerator\\wwwroot\\js\\Factura\\Factura.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-19T10:02:28.494Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PdfDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Oscar\\OneDrive\\Documentos\\Dise-o-Web\\PDFGenerator\\PDFGenerator\\Data\\Context\\PdfDbContext.cs",
-              "RelativeDocumentMoniker": "PDFGenerator\\Data\\Context\\PdfDbContext.cs",
-              "ToolTip": "C:\\Users\\Oscar\\OneDrive\\Documentos\\Dise-o-Web\\PDFGenerator\\PDFGenerator\\Data\\Context\\PdfDbContext.cs",
-              "RelativeToolTip": "PDFGenerator\\Data\\Context\\PdfDbContext.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Detallefactura.cs",
+              "DocumentMoniker": "C:\\Users\\Oscar\\OneDrive\\Documentos\\Dise-o-Web\\PDFGenerator\\PDFGenerator\\Data\\Models\\Detallefactura.cs",
+              "RelativeDocumentMoniker": "PDFGenerator\\Data\\Models\\Detallefactura.cs",
+              "ToolTip": "C:\\Users\\Oscar\\OneDrive\\Documentos\\Dise-o-Web\\PDFGenerator\\PDFGenerator\\Data\\Models\\Detallefactura.cs",
+              "RelativeToolTip": "PDFGenerator\\Data\\Models\\Detallefactura.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T08:51:24.237Z",
+              "WhenOpened": "2025-05-19T08:34:14.331Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Oscar\\OneDrive\\Documentos\\Dise-o-Web\\PDFGenerator\\PDFGenerator\\Views\\PDF\\Index.cshtml",
-              "RelativeDocumentMoniker": "PDFGenerator\\Views\\PDF\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Oscar\\OneDrive\\Documentos\\Dise-o-Web\\PDFGenerator\\PDFGenerator\\Views\\PDF\\Index.cshtml",
-              "RelativeToolTip": "PDFGenerator\\Views\\PDF\\Index.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAADgAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-08T09:14:11.798Z",
+              "Title": "Factura.cs",
+              "DocumentMoniker": "C:\\Users\\Oscar\\OneDrive\\Documentos\\Dise-o-Web\\PDFGenerator\\PDFGenerator\\Data\\Models\\Factura.cs",
+              "RelativeDocumentMoniker": "PDFGenerator\\Data\\Models\\Factura.cs",
+              "ToolTip": "C:\\Users\\Oscar\\OneDrive\\Documentos\\Dise-o-Web\\PDFGenerator\\PDFGenerator\\Data\\Models\\Factura.cs",
+              "RelativeToolTip": "PDFGenerator\\Data\\Models\\Factura.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T08:34:10.399Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Oscar\\OneDrive\\Documentos\\Dise-o-Web\\PDFGenerator\\PDFGenerator\\Views\\PDF\\Index.cshtml",
+              "RelativeDocumentMoniker": "PDFGenerator\\Views\\PDF\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Oscar\\OneDrive\\Documentos\\Dise-o-Web\\PDFGenerator\\PDFGenerator\\Views\\PDF\\Index.cshtml",
+              "RelativeToolTip": "PDFGenerator\\Views\\PDF\\Index.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAA4AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-19T08:25:04.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Oscar\\OneDrive\\Documentos\\Dise-o-Web\\PDFGenerator\\PDFGenerator\\Views\\Factura\\Index.cshtml",
+              "RelativeDocumentMoniker": "PDFGenerator\\Views\\Factura\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Oscar\\OneDrive\\Documentos\\Dise-o-Web\\PDFGenerator\\PDFGenerator\\Views\\Factura\\Index.cshtml",
+              "RelativeToolTip": "PDFGenerator\\Views\\Factura\\Index.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-19T04:57:58.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FacturaController.cs",
+              "DocumentMoniker": "C:\\Users\\Oscar\\OneDrive\\Documentos\\Dise-o-Web\\PDFGenerator\\PDFGenerator\\Controllers\\FacturaController.cs",
+              "RelativeDocumentMoniker": "PDFGenerator\\Controllers\\FacturaController.cs",
+              "ToolTip": "C:\\Users\\Oscar\\OneDrive\\Documentos\\Dise-o-Web\\PDFGenerator\\PDFGenerator\\Controllers\\FacturaController.cs",
+              "RelativeToolTip": "PDFGenerator\\Controllers\\FacturaController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T04:57:15.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "PDFController.cs",
               "DocumentMoniker": "C:\\Users\\Oscar\\OneDrive\\Documentos\\Dise-o-Web\\PDFGenerator\\PDFGenerator\\Controllers\\PDFController.cs",
               "RelativeDocumentMoniker": "PDFGenerator\\Controllers\\PDFController.cs",
               "ToolTip": "C:\\Users\\Oscar\\OneDrive\\Documentos\\Dise-o-Web\\PDFGenerator\\PDFGenerator\\Controllers\\PDFController.cs",
               "RelativeToolTip": "PDFGenerator\\Controllers\\PDFController.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAqwJ4AAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-08T09:13:00.453Z",
               "EditorCaption": ""

@@ -31,7 +31,6 @@ namespace PDFGenerator.Controllers
             return Ok(depas);
         }
 
-        [HttpGet]
         public async Task<IActionResult> GetMunicipio(int idDepa)
         {
             var municipios = await _context.Municipios
@@ -44,7 +43,6 @@ namespace PDFGenerator.Controllers
             return Ok(municipios);
         }
 
-        [HttpGet]
         public async Task<IActionResult> GetClientes()
         {
             var clientes = await _context.Clientes

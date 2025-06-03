@@ -27,14 +27,14 @@
     <StaticWebAssetEndpoint Include="_content/PDFGenerator/js/Cliente/Cliente.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Cliente\Cliente.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-/V3c2rXmQcsq/aBy6WxcfxdOG7xJE\u002Bj5wnCZ1sC6QRs="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"12130"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022/V3c2rXmQcsq/aBy6WxcfxdOG7xJE\u002Bj5wnCZ1sC6QRs=\u0022"},{"Name":"Last-Modified","Value":"Mon, 12 May 2025 08:36:11 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-NQa3aeMnGeuNWp0AnA2It71MLMp24U2feN9kYL5ZIr8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"12142"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022NQa3aeMnGeuNWp0AnA2It71MLMp24U2feN9kYL5ZIr8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 12 May 2025 08:37:52 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/PDFGenerator/js/Cliente/Cliente.tgq4znsey9.js">
+    <StaticWebAssetEndpoint Include="_content/PDFGenerator/js/Cliente/Cliente.vzgfyxrf7d.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\Cliente\Cliente.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"tgq4znsey9"},{"Name":"integrity","Value":"sha256-/V3c2rXmQcsq/aBy6WxcfxdOG7xJE\u002Bj5wnCZ1sC6QRs="},{"Name":"label","Value":"_content/PDFGenerator/js/Cliente/Cliente.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"12130"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022/V3c2rXmQcsq/aBy6WxcfxdOG7xJE\u002Bj5wnCZ1sC6QRs=\u0022"},{"Name":"Last-Modified","Value":"Mon, 12 May 2025 08:36:11 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"vzgfyxrf7d"},{"Name":"integrity","Value":"sha256-NQa3aeMnGeuNWp0AnA2It71MLMp24U2feN9kYL5ZIr8="},{"Name":"label","Value":"_content/PDFGenerator/js/Cliente/Cliente.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"12142"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022NQa3aeMnGeuNWp0AnA2It71MLMp24U2feN9kYL5ZIr8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 12 May 2025 08:37:52 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/PDFGenerator/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>

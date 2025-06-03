@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PDFGenerator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bb11c9689b1955ec4483748f3b462f1827c48653")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3cfff875368960b1b90b72f0feed48b0faf4928e")]
 [assembly: System.Reflection.AssemblyProductAttribute("PDFGenerator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PDFGenerator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
